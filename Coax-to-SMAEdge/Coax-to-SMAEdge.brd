@@ -65,6 +65,7 @@
 <wire x1="0" y1="7.5" x2="12.6" y2="7.5" width="0.1524" layer="20"/>
 <wire x1="12.6" y1="7.5" x2="12.6" y2="0" width="0.1524" layer="20"/>
 <wire x1="12.6" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+<text x="11.9" y="3.2" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
 </plain>
 <libraries>
 <library name="Various">
@@ -337,15 +338,15 @@ Your Multi-CB Team
 </elements>
 <signals>
 <signal name="N$1">
-<contactref element="U$1" pad="P$3"/>
-<contactref element="PAD1" pad="1"/>
-<contactref element="U$1" pad="P$4"/>
 <contactref element="U$1" pad="P$2"/>
+<contactref element="U$1" pad="P$4"/>
+<contactref element="U$1" pad="P$3"/>
 <contactref element="U$1" pad="P$5"/>
-<wire x1="2.786" y1="6.29" x2="7.2" y2="6.29" width="0.8" layer="1"/>
-<wire x1="7.2" y1="6.29" x2="9.74" y2="3.75" width="0.8" layer="1"/>
-<wire x1="2.786" y1="1.21" x2="7.2" y2="1.21" width="0.8" layer="1"/>
-<wire x1="7.2" y1="1.21" x2="9.74" y2="3.75" width="0.8" layer="1"/>
+<contactref element="PAD1" pad="1"/>
+<wire x1="2.786" y1="6.29" x2="7.2" y2="6.29" width="1" layer="1"/>
+<wire x1="7.2" y1="6.29" x2="9.74" y2="3.75" width="1" layer="1"/>
+<wire x1="9.74" y1="3.75" x2="7.2" y2="1.21" width="1" layer="1"/>
+<wire x1="7.2" y1="1.21" x2="2.786" y2="1.21" width="1" layer="1"/>
 <wire x1="2.786" y1="6.29" x2="2.786" y2="6.29" width="0" layer="19" extent="1-16"/>
 <wire x1="2.786" y1="1.21" x2="2.786" y2="1.21" width="0" layer="19" extent="1-16"/>
 </signal>
@@ -357,6 +358,10 @@ Your Multi-CB Team
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="21,19,fefcfcfefcfefefc"/>
+<approved hash="21,19,fefcfcfefcfefefc"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

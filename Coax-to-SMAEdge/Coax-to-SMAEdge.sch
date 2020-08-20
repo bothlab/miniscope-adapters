@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -76,32 +76,31 @@
 </package>
 </packages>
 <symbols>
-<symbol name="MALE-STRAIGHT-SMA-EDGEMOUNT">
-<pin name="SIGNAL" x="0" y="-2.54" visible="pin" length="point" rot="R270"/>
-<pin name="GND1" x="-2.54" y="2.54" visible="pin" length="point" rot="R180"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="97"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="97"/>
-<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.254" layer="97"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="97"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="97"/>
-<pin name="GND2" x="2.54" y="0" visible="pin" length="point"/>
-<pin name="GND3" x="-2.54" y="0" visible="pin" length="point" rot="R180"/>
-<pin name="GND4" x="2.54" y="2.54" visible="pin" length="point"/>
+<symbol name="BNC-FGND">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="MALE-STRAIGHT-SMA-EDGEMOUNT">
 <gates>
-<gate name="G$1" symbol="MALE-STRAIGHT-SMA-EDGEMOUNT" x="0" y="0"/>
+<gate name="G$1" symbol="BNC-FGND" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="MALE-STRAIGHT-SMA-EDGEMOUNT">
 <connects>
-<connect gate="G$1" pin="GND1" pad="P$2"/>
-<connect gate="G$1" pin="GND2" pad="P$3"/>
-<connect gate="G$1" pin="GND3" pad="P$4"/>
-<connect gate="G$1" pin="GND4" pad="P$5"/>
-<connect gate="G$1" pin="SIGNAL" pad="P$1"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2 P$3 P$4 P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -731,10 +730,9 @@
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="0" y="0" smashed="yes" rot="R90"/>
+<instance part="U$1" gate="G$1" x="2.54" y="0" smashed="yes"/>
 <instance part="PAD1" gate="G$1" x="20.32" y="0" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.463" y="-1.8542" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="21.463" y="3.302" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="21.463" y="3.2258" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -742,24 +740,10 @@
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND2"/>
-<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="0" y1="5.08" x2="17.78" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
 <pinref part="PAD1" gate="G$1" pin="P"/>
-<wire x1="17.78" y1="5.08" x2="17.78" y2="0" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND3"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="0" y1="-5.08" x2="17.78" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-5.08" x2="17.78" y2="0" width="0.1524" layer="91"/>
-<junction x="17.78" y="0"/>
-<pinref part="U$1" gate="G$1" pin="GND1"/>
-<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="0" y="-5.08"/>
-<pinref part="U$1" gate="G$1" pin="GND4"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
-<junction x="0" y="5.08"/>
+<wire x1="5.08" y1="-2.54" x2="17.78" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
