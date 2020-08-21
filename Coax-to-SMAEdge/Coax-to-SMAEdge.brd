@@ -68,7 +68,7 @@
 <text x="11.9" y="3.2" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
 </plain>
 <libraries>
-<library name="Various">
+<library name="MaKLib-Connectors-A">
 <packages>
 <package name="MALE-STRAIGHT-SMA-EDGEMOUNT">
 <smd name="P$1" x="2.786" y="0" dx="4.572" dy="1.524" layer="1"/>
@@ -330,7 +330,7 @@ Your Multi-CB Team
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="Various" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="0" y="3.75" smashed="yes"/>
+<element name="U$1" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="0" y="3.75" smashed="yes"/>
 <element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="9.74" y="3.75" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="3" x="9.74" y="3.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.94" y="3.65" size="0.0254" layer="27" rot="R90"/>

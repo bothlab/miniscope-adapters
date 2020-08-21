@@ -61,7 +61,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Various">
+<library name="MaKLib-Connectors-A">
 <packages>
 <package name="MALE-STRAIGHT-SMA-EDGEMOUNT">
 <smd name="P$1" x="2.786" y="0" dx="4.572" dy="1.524" layer="1"/>
@@ -722,7 +722,7 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Various" deviceset="MALE-STRAIGHT-SMA-EDGEMOUNT" device=""/>
+<part name="U$1" library="MaKLib-Connectors-A" deviceset="MALE-STRAIGHT-SMA-EDGEMOUNT" device=""/>
 <part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1"/>
 </parts>
 <sheets>
