@@ -24,7 +24,7 @@ the male Harwin connector in order to still use them without a commutator for te
 | Harwin M80 12pos male connector | Harwin | M80-8691222 [1] | [DigiKey](https://www.digikey.de/product-detail/en/harwin-inc/M80-8691222/952-2957-ND/2272027) |
 | Straight throughhole SMA plug 50Ω male | Amphenol RF | 901-9895-RFX | [DigiKey](https://www.digikey.de/product-detail/en/amphenol-rf/901-9895-RFX/ARFX1229-ND/272187) |
 | Straight edgemount SMA plug 50Ω | Linx Technologies | CONSMA013.062 | [DigiKey](https://www.digikey.de/product-detail/en/linx-technologies-inc/CONSMA013-062/CONSMA013-062-ND/1577228) |
-| U.FL SMD Connector | Hirose Electric Co Ltd | CONSMA013.062 | [DigiKey](https://www.digikey.de/product-detail/en/hirose-electric-co-ltd/U-FL-R-SMT-1-10/H11891CT-ND/2504612) |
+| U.FL SMD Connector | Hirose Electric Co Ltd | U.FL-R-SMT-1(10) | [DigiKey](https://www.digikey.de/product-detail/en/hirose-electric-co-ltd/U-FL-R-SMT-1-10/H11891CT-ND/2504612) |
 
 
 [1]: Harwin M80-8691205 would have had a gold finish on termination as well (instead of tin/lead), but that version was not readily
