@@ -65,7 +65,7 @@
 <wire x1="0" y1="7.65" x2="16.2" y2="7.65" width="0.15" layer="20"/>
 <wire x1="16.2" y1="7.65" x2="16.2" y2="0" width="0.15" layer="20"/>
 <wire x1="16.2" y1="0" x2="0" y2="0" width="0.15" layer="20"/>
-<text x="8.1" y="2.1" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="8.1" y="6.8" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
 </plain>
 <libraries>
 <library name="MaKLib-Connectors-A">
