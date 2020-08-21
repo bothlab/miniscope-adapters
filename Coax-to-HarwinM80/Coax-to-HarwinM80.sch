@@ -63,31 +63,6 @@
 <libraries>
 <library name="Various">
 <packages>
-<package name="COAX-THROUGBOARD">
-<smd name="P$1" x="0" y="0.3" dx="0.1" dy="0.2" layer="16" roundness="100" rot="R270" stop="no" cream="no"/>
-<smd name="P$2" x="1.5" y="0" dx="1.27" dy="0.6" layer="1" roundness="100"/>
-<text x="3.02" y="0" size="0.4064" layer="25" align="center">Coax</text>
-<wire x1="0" y1="-0.6" x2="0" y2="0.6" width="0.127" layer="21" curve="-180"/>
-<hole x="0" y="0" drill="0.3"/>
-<polygon width="0.01" layer="30">
-<vertex x="0" y="0.5" curve="-90"/>
-<vertex x="0.5" y="0" curve="-90"/>
-<vertex x="0" y="-0.5" curve="-90"/>
-<vertex x="-0.5" y="0" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="16">
-<vertex x="-0.4" y="0" curve="-90"/>
-<vertex x="0" y="0.4" curve="-90"/>
-<vertex x="0.4" y="0" curve="-90"/>
-<vertex x="0" y="-0.4" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="16" pour="cutout">
-<vertex x="-0.15" y="0" curve="-90"/>
-<vertex x="0" y="0.15" curve="-90"/>
-<vertex x="0.15" y="0" curve="-90"/>
-<vertex x="0" y="-0.15" curve="-90"/>
-</polygon>
-</package>
 <package name="M80-8871205">
 <description>&lt;b&gt;M80-8871205-3&lt;/b&gt;&lt;br&gt;
 </description>
@@ -114,20 +89,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="COAX-THROUGHBOARD">
-<wire x1="0.5" y1="-2.29" x2="-0.262" y2="-1.528" width="0.254" layer="94"/>
-<wire x1="0.5" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="3.04" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="3.04" y="-2.29" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-0.25" y1="0.5" x2="-0.25" y2="2.5" width="0.3048" layer="94"/>
-<wire x1="-0.25" y1="-0.5" x2="-0.25" y2="-2.5" width="0.3048" layer="94"/>
-</symbol>
 <symbol name="M80-8871205">
 <wire x1="0" y1="5.08" x2="17.78" y2="5.08" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-5.08" x2="17.78" y2="5.08" width="0.254" layer="94"/>
@@ -150,22 +111,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="COAX-THROUGBOARD">
-<gates>
-<gate name="G$1" symbol="COAX-THROUGHBOARD" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="COAX-THROUGBOARD">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M80-8871205" prefix="J">
 <description>&lt;b&gt;Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -205,6 +150,51 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 </deviceset>
 </devicesets>
 </library>
+<library name="MaKLib-Connectors-A">
+<packages>
+<package name="COAX-THROUGBOARD">
+<smd name="P$2" x="1.5" y="0" dx="1.27" dy="0.6" layer="1" roundness="100"/>
+<text x="3.27" y="0" size="0.4064" layer="25" align="center">&gt;NAME</text>
+<pad name="P$1" x="0" y="0" drill="0.3" diameter="0.55"/>
+<wire x1="0" y1="0.45" x2="0" y2="-0.45" width="0.127" layer="22" curve="-180"/>
+<wire x1="0" y1="-0.45" x2="0" y2="0.45" width="0.127" layer="21" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="COAX-THROUGHBOARD">
+<wire x1="0.5" y1="-2.29" x2="-0.262" y2="-1.528" width="0.254" layer="94"/>
+<wire x1="0.5" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="3.04" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="3.04" y="-2.29" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.25" y1="0.5" x2="-0.25" y2="2.5" width="0.3048" layer="94"/>
+<wire x1="-0.25" y1="-0.5" x2="-0.25" y2="-2.5" width="0.3048" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="COAX-THROUGBOARD">
+<gates>
+<gate name="G$1" symbol="COAX-THROUGHBOARD" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="COAX-THROUGBOARD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -215,21 +205,20 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Various" deviceset="COAX-THROUGBOARD" device=""/>
 <part name="J3" library="Various" deviceset="M80-8871205" device=""/>
+<part name="COAX" library="MaKLib-Connectors-A" deviceset="COAX-THROUGBOARD" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="2.54" y="0" smashed="yes">
-<attribute name="VALUE" x="0" y="-5.08" size="1.778" layer="96"/>
-<attribute name="NAME" x="0" y="3.302" size="1.778" layer="95"/>
-</instance>
 <instance part="J3" gate="G$1" x="15.24" y="12.7" smashed="yes">
 <attribute name="NAME" x="34.29" y="22.86" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="34.29" y="20.32" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="COAX" gate="G$1" x="2.54" y="0" smashed="yes">
+<attribute name="NAME" x="0" y="3.302" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -258,10 +247,10 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <wire x1="27.94" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="0" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
 <junction x="27.94" y="0"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="0" x2="17.78" y2="-2.29" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-2.29" x2="5.58" y2="-2.29" width="0.1524" layer="91"/>
 <junction x="17.78" y="0"/>
+<pinref part="COAX" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -290,8 +279,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <wire x1="17.78" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="25.4" x2="7.62" y2="0" width="0.1524" layer="91"/>
 <junction x="17.78" y="25.4"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="0" x2="5.58" y2="0" width="0.1524" layer="91"/>
+<pinref part="COAX" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
