@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="Scoring" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<text x="11.9" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="24.7" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="37.5" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="50.3" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="63.1" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="75.9" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="88.7" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="101.5" y="64.05" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="11.9" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="24.7" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="37.5" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="50.3" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="63.1" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="75.9" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="88.7" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="101.5" y="56.45" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
+<text x="8.1" y="37.4" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="11.17" y="31.499990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="24.4" y="37.4" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="27.47" y="31.499990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="40.7" y="37.4" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="43.77" y="31.499990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="57" y="37.4" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="60.07" y="31.499990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="73.3" y="37.4" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="76.37" y="31.499990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="89.6" y="37.4" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="92.67" y="31.499990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="8.1" y="29.65" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="11.17" y="23.749990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="24.4" y="29.65" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="27.47" y="23.749990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="40.7" y="29.65" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="43.77" y="23.749990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="57" y="29.65" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="60.07" y="23.749990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="73.3" y="29.65" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="76.37" y="23.749990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="89.6" y="29.65" size="0.8128" layer="26" rot="MR0" align="center">Coax to Harwin M80 v1</text>
+<text x="92.67" y="23.749990625" size="0.4064" layer="125" align="center">COAX</text>
+<text x="15" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
+<text x="13.75" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
+<text x="8.1" y="21.95" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
+<text x="31.3" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
+<text x="30.05" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
+<text x="24.4" y="21.95" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
+<text x="47.6" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
+<text x="46.35" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
+<text x="40.7" y="21.95" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
+<text x="63.9" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
+<text x="62.65" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
+<text x="57" y="21.95" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
+<text x="80.2" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
+<text x="78.95" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
+<text x="73.3" y="21.95" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
+<text x="96.5" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
+<text x="95.25" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
+<text x="89.6" y="21.95" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
+<wire x1="12.7" y1="68.35" x2="12.7" y2="53.25" width="0.1" layer="100"/>
+<wire x1="12.7" y1="53.25" x2="0" y2="53.25" width="0.1" layer="100"/>
+<wire x1="12.7" y1="53.25" x2="25.5" y2="53.25" width="0.1" layer="100"/>
+<wire x1="25.5" y1="53.25" x2="38.3" y2="53.25" width="0.1" layer="100"/>
+<wire x1="38.3" y1="53.25" x2="51.1" y2="53.25" width="0.1" layer="100"/>
+<wire x1="51.1" y1="53.25" x2="63.9" y2="53.25" width="0.1" layer="100"/>
+<wire x1="63.9" y1="53.25" x2="76.7" y2="53.25" width="0.1" layer="100"/>
+<wire x1="76.7" y1="53.25" x2="89.5" y2="53.25" width="0.1" layer="100"/>
+<wire x1="89.5" y1="53.25" x2="102.2" y2="53.25" width="0.1" layer="100"/>
+<wire x1="25.5" y1="53.25" x2="25.5" y2="68.35" width="0.1" layer="100"/>
+<wire x1="38.3" y1="68.35" x2="38.3" y2="53.25" width="0.1" layer="100"/>
+<wire x1="51.1" y1="68.35" x2="51.1" y2="53.25" width="0.1" layer="100"/>
+<wire x1="63.9" y1="68.35" x2="63.9" y2="53.25" width="0.1" layer="100"/>
+<wire x1="76.7" y1="68.35" x2="76.7" y2="53.25" width="0.1" layer="100"/>
+<wire x1="89.5" y1="68.35" x2="89.5" y2="53.25" width="0.1" layer="100"/>
+<rectangle x1="0" y1="38.3" x2="102.2" y2="53.2" layer="39"/>
+<wire x1="0" y1="38.25" x2="16.25" y2="38.25" width="0.1" layer="100"/>
+<wire x1="16.25" y1="38.25" x2="32.55" y2="38.25" width="0.1" layer="100"/>
+<wire x1="32.55" y1="38.25" x2="48.85" y2="38.25" width="0.1" layer="100"/>
+<wire x1="48.85" y1="38.25" x2="65.15" y2="38.25" width="0.1" layer="100"/>
+<wire x1="65.15" y1="38.25" x2="81.45" y2="38.25" width="0.1" layer="100"/>
+<wire x1="81.45" y1="38.25" x2="97.7" y2="38.25" width="0.1" layer="100"/>
+<wire x1="97.7" y1="38.25" x2="102.2" y2="38.25" width="0.1" layer="100"/>
+<wire x1="16.25" y1="38.25" x2="16.25" y2="0" width="0.1" layer="100"/>
+<wire x1="32.55" y1="38.25" x2="32.55" y2="0" width="0.1" layer="100"/>
+<wire x1="48.85" y1="38.25" x2="48.85" y2="0" width="0.1" layer="100"/>
+<wire x1="65.15" y1="38.25" x2="65.15" y2="0" width="0.1" layer="100"/>
+<wire x1="81.45" y1="0" x2="81.45" y2="38.25" width="0.1" layer="100"/>
+<wire x1="97.7" y1="38.25" x2="97.7" y2="0" width="0.1" layer="100"/>
+<wire x1="0" y1="30.55" x2="102.2" y2="30.55" width="0.1" layer="100"/>
+<wire x1="0" y1="22.8" x2="102.2" y2="22.8" width="0.1" layer="100"/>
+<wire x1="0" y1="14.025" x2="102.2" y2="14.025" width="0.1" layer="100"/>
+<wire x1="-0.15" y1="60.8" x2="-0.35" y2="60.8" width="0.1" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="68.35" width="0.1" layer="20"/>
+<wire x1="0" y1="60.8" x2="102.2" y2="60.8" width="0.1" layer="100"/>
+<wire x1="0" y1="0" x2="102.2" y2="0" width="0.1" layer="20"/>
+<wire x1="102.2" y1="0" x2="102.2" y2="68.35" width="0.1" layer="20"/>
+<wire x1="102.2" y1="68.35" x2="0" y2="68.35" width="0.1" layer="20"/>
+</plain>
+<libraries>
+<library name="MaKLib-Connectors-A">
+<packages>
+<package name="M80-8871205">
+<description>&lt;b&gt;M80-8871205-3&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="2" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="3" x="2" y="2" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="4" x="2" y="0" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="5" x="4" y="2" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="6" x="4" y="0" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="7" x="6" y="2" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="8" x="6" y="0" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="9" x="8" y="2" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="10" x="8" y="0" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="11" x="10" y="2" drill="0.8" diameter="1.3" rot="R180"/>
+<pad name="12" x="10" y="0" drill="0.8" diameter="1.3" rot="R180"/>
+<text x="0.225" y="-2.575" size="1.27" layer="25" rot="R180" align="center">&gt;NAME</text>
+<text x="9.35" y="-2.575" size="1.27" layer="27" rot="R180" align="center">&gt;VALUE</text>
+<wire x1="-2.575" y1="-1.725" x2="12.575" y2="-1.725" width="0.2" layer="21"/>
+<wire x1="12.575" y1="-1.725" x2="12.575" y2="2.9" width="0.2" layer="21"/>
+<wire x1="12.575" y1="2.9" x2="11.75" y2="3.725" width="0.2" layer="21"/>
+<wire x1="-2.575" y1="-1.725" x2="-2.575" y2="2.9" width="0.2" layer="21"/>
+<wire x1="-2.575" y1="2.9" x2="-1.75" y2="3.725" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="3.725" x2="11.75" y2="3.725" width="0.2" layer="21"/>
+</package>
+<package name="SMA-901-9895-RFX">
+<description>Male Pin SMA connector&lt;br/&gt;
+Amphenol RF, &lt;b&gt;901-9895-RFX&lt;/b&gt;</description>
+<wire x1="-1.1" y1="3.2" x2="1.1" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="1.1" x2="3.2" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="-3.2" x2="-1.1" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-1.1" x2="-3.2" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-3.1999" y1="3.1999" x2="3.2" y2="3.2" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="3.2" x2="3.1999" y2="-3.1999" width="0.2032" layer="51"/>
+<wire x1="3.1999" y1="-3.1999" x2="-3.2" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-3.2" x2="-3.1999" y2="3.1999" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="3.1999" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.5"/>
+<pad name="2" x="-2.5499" y="2.5499" drill="1.71"/>
+<pad name="3" x="2.5499" y="2.5499" drill="1.71"/>
+<pad name="4" x="2.5499" y="-2.5499" drill="1.71"/>
+<pad name="5" x="-2.5499" y="-2.5499" drill="1.71"/>
+<text x="-2.54" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="U.FL-R-SMT-1(10)">
+<description>&lt;b&gt;U.FL-R-SMT-1(10)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.475" y="0" dx="2.2" dy="1.05" layer="1" rot="R90"/>
+<smd name="2" x="1.475" y="0" dx="2.2" dy="1.05" layer="1" rot="R90"/>
+<smd name="3" x="0" y="1.525" dx="1.05" dy="1.05" layer="1"/>
+<text x="6.00533125" y="-0.063" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.34466875" y="-2.603" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.3" y1="1.3" x2="1.3" y2="1.3" width="0.254" layer="51"/>
+<wire x1="1.3" y1="1.3" x2="1.3" y2="-1.3" width="0.254" layer="51"/>
+<wire x1="1.3" y1="-1.3" x2="-1.3" y2="-1.3" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="1.3" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-1.3" x2="1.3" y2="-1.3" width="0.254" layer="21"/>
+<wire x1="1.3" y1="1.3" x2="0.788" y2="1.3" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="1.3" x2="-0.76966875" y2="1.3" width="0.254" layer="21"/>
+</package>
+<package name="MALE-STRAIGHT-SMA-EDGEMOUNT">
+<smd name="P$1" x="2.786" y="0" dx="4.572" dy="1.524" layer="1"/>
+<smd name="P$2" x="2.786" y="2.54" dx="4.572" dy="1.524" layer="1"/>
+<smd name="P$3" x="2.786" y="-2.54" dx="4.572" dy="1.524" layer="1"/>
+<smd name="P$4" x="2.786" y="2.54" dx="4.572" dy="1.524" layer="16"/>
+<smd name="P$5" x="2.786" y="-2.54" dx="4.572" dy="1.524" layer="16"/>
+<wire x1="0" y1="-4" x2="0" y2="4" width="0.127" layer="21"/>
+<wire x1="0" y1="4" x2="5.5" y2="4" width="0.127" layer="21"/>
+<wire x1="5.5" y1="4" x2="5.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-4" x2="0" y2="-4" width="0.127" layer="21"/>
+</package>
+<package name="COAX-THROUGBOARD">
+<smd name="P$2" x="1.5" y="0" dx="1.27" dy="0.6" layer="1" roundness="100"/>
+<text x="3.27" y="0" size="0.4064" layer="25" align="center">&gt;NAME</text>
+<pad name="P$1" x="0" y="0" drill="0.3" diameter="0.55"/>
+<wire x1="0" y1="0.45" x2="0" y2="-0.45" width="0.127" layer="22" curve="-180"/>
+<wire x1="0" y1="-0.45" x2="0" y2="0.45" width="0.127" layer="21" curve="-180"/>
+</package>
+</packages>
+</library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="5-2,5" urn="urn:adsk.eagle:footprint:30827/1" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.524" y1="2.794" x2="-1.524" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-2.794" x2="-1.524" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-2.794" x2="1.524" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="2.794" x2="1.524" y2="-2.794" width="0.1524" layer="21"/>
+<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1"/>
+<text x="-1.778" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-0.1" y="2.8" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="5-2,5" urn="urn:adsk.eagle:package:30845/1" type="box" library_version="2">
+<description>THROUGH-HOLE PAD</description>
+<packageinstances>
+<packageinstance name="5-2,5"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="Multi-CB_2L_100um-Tracks_OL35um">
+<description language="de">&lt;b&gt;Multi-CB EAGLE Design Rules für 2 Lagen Standard (ohne Aufpreis)&lt;/b&gt;
+&lt;br&gt;
+100µm Leiter, 0.2mm Drill, ca. 35µm End-Kupfer (18µm Startkupfer)
+&lt;p&gt;
+&lt;b&gt;Bitte beachten:&lt;/b&gt;
+&lt;ul type=&quot;square&quot;&gt;
+	&lt;li&gt;Vias kleiner/gleich 0.45mm werden mit Lötstopp abgedeckt. Eine Freistellung der Vias kann unter Masks/Limit gesetzt werden.&lt;/li&gt;
+	&lt;li&gt;Bitte nur Vektorschrift verwenden! Im Control-Panel unter Optionen/Benutzeroberfläche: Immer Vektor-Schrift.&lt;/li&gt;
+	&lt;li&gt;Langlöcher im Layer 46 werden als durchkontaktierte Schlitze (DK) gefertigt, falls von Kupfer umgeben. NDK-Langlöcher müssen im Layer 20 definiert sein.&lt;/li&gt;
+	&lt;li&gt;Dieses .dru-File ist für Boards mit Fräskontur. Geritzte Kontur erfordert Distance/Copper/Dimension: 0.5mm.&lt;/li&gt;
+	&lt;li&gt;Falls Lötstopp-Brücken im gleichen Netz erwünscht: Clearance/Same Signals anpassen (empfohlen: 8mil)&lt;/li&gt;
+	&lt;li&gt;Supply/ Generate thermals ist standardmäßig aktiviert; kann auch deaktiviert werden.&lt;/li&gt;
+	&lt;li&gt;Zum Reduzieren der Pad-Größe für SMD-Schablonen kann Masks/Cream angepasst werden.&lt;/li&gt;
+&lt;/ul&gt;
+Für kleinere Werte (Leiterbahn, Drill) verwenden Sie bitte ein Advanced .dru-File von Multi-CB.&lt;br&gt;
+Weitere Hinweise finden Sie unter &lt;b&gt;Design-Hilfe&lt;/b&gt; auf unserer Webseite &lt;a href=&quot;http://www.multi-circuit-boards.eu/leiterplatten-design-hilfe/einfuehrung.html&quot;&gt;www.multi-cb.de&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Ihr Multi-CB Team
+&lt;br&gt;&lt;br&gt;
+&lt;em&gt;Alle Angaben ohne Gewähr! Eine perfekte Einstellung der Design-Rules kann verständlicherweise nur durch den Anwender erfolgen.&lt;/em&gt;
+&lt;/p&gt;</description>
+<description language="en">&lt;b&gt;Multi-CB EAGLE Design Rules for 2 layers standard (w/o surcharge)&lt;/b&gt;
+&lt;br&gt;
+100µm tracks, 0.2mm drills, ca. 35µm final copper (18µm start copper)
+&lt;p&gt;
+&lt;b&gt;Please note:&lt;/b&gt;
+&lt;ul type=&quot;square&quot;&gt;
+	&lt;li&gt;Vias less/equal 0.45mm will be covered with solder mask. An exemption of the vias can be placed under Masks / Limit.&lt;/li&gt;
+	&lt;li&gt;Please only use vector fonts! In Control Panel under Options / User Interface: Always vector font.&lt;/li&gt;
+	&lt;li&gt;Oblong holes in the layer 46 are manufactured as plated-through slots (PTH), if surrounded by copper. NPTH-slots must be defined in the layer 20.&lt;/li&gt;
+	&lt;li&gt;This .dru-File is for boards with milling contour. V-scoring contour requires Distance / Copper / Dimension: 0.5mm.&lt;/li&gt;
+	&lt;li&gt;If solder-stop bridges on the same network are desired: Adjust Clearance / Same signal (recommended 8mil)&lt;/li&gt;
+	&lt;li&gt;Supply / Generate thermals is enabled by default; can also be deactivated.&lt;/li&gt;
+	&lt;li&gt;To reduce the pad size for SMD-Stencils: Masks/Cream can be customized.&lt;/li&gt;
+&lt;/ul&gt;
+For smaller values (conductors, drill) please use an Advanced .dru file of Multi-CB.&lt;br&gt;
+For more information, see &lt;b&gt;Design-Aid&lt;/b&gt; on our website &lt;a href=&quot;http://www.multi-circuit-boards.eu/en/pcb-design-aid/introduction.html&quot;&gt;www.multi-cb.eu&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Your Multi-CB Team
+&lt;br&gt;&lt;br&gt;
+&lt;em&gt;All statements without guarantee! A perfect setting of design rules can understandably only be performed by the user.&lt;/em&gt;
+&lt;/p&gt;</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.018mm"/>
+<param name="mtIsolate" value="1.55mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="0.1mm"/>
+<param name="mdWirePad" value="0.1mm"/>
+<param name="mdWireVia" value="0.1mm"/>
+<param name="mdPadPad" value="0.1mm"/>
+<param name="mdPadVia" value="0.1mm"/>
+<param name="mdViaVia" value="0.1mm"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="0.2mm"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="0.2mm"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="0.1mm"/>
+<param name="msDrill" value="0.2mm"/>
+<param name="msMicroVia" value="0.2mm"/>
+<param name="msBlindViaRatio" value="1"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="0.125mm"/>
+<param name="rlMaxPadTop" value="0.75mm"/>
+<param name="rlMinPadInner" value="0.125mm"/>
+<param name="rlMaxPadInner" value="0.75mm"/>
+<param name="rlMinPadBottom" value="0.125mm"/>
+<param name="rlMaxPadBottom" value="0.75mm"/>
+<param name="rlMinViaOuter" value="0.1mm"/>
+<param name="rlMaxViaOuter" value="0.75mm"/>
+<param name="rlMinViaInner" value="0.1mm"/>
+<param name="rlMaxViaInner" value="0.75mm"/>
+<param name="rlMinMicroViaOuter" value="0.1mm"/>
+<param name="rlMaxMicroViaOuter" value="0.75mm"/>
+<param name="rlMinMicroViaInner" value="0.1mm"/>
+<param name="rlMaxMicroViaInner" value="0.75mm"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0.45mm"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalsForVias" value="1"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="U$1" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="0" y="64.6" smashed="yes"/>
+<element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="9.74" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="9.74" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.94" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$2" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="12.8" y="64.6" smashed="yes"/>
+<element name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="22.54" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="22.54" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="19.74" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$3" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="25.6" y="64.6" smashed="yes"/>
+<element name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="35.34" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="35.34" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.54" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$4" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="38.4" y="64.6" smashed="yes"/>
+<element name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="48.14" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="48.14" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="45.34" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$5" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="51.2" y="64.6" smashed="yes"/>
+<element name="PAD5" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="60.94" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="60.94" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.14" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$6" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="64" y="64.6" smashed="yes"/>
+<element name="PAD6" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="73.74" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="73.74" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="70.94" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$7" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="76.8" y="64.6" smashed="yes"/>
+<element name="PAD7" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="86.54" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="86.54" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="83.74" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$8" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="89.6" y="64.6" smashed="yes"/>
+<element name="PAD8" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="99.34" y="64.6" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="99.34" y="64.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="96.54" y="64.5" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$9" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="0" y="57" smashed="yes"/>
+<element name="PAD9" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="9.74" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="9.74" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.94" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$10" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="12.8" y="57" smashed="yes"/>
+<element name="PAD10" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="22.54" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="22.54" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="19.74" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$11" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="25.6" y="57" smashed="yes"/>
+<element name="PAD11" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="35.34" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="35.34" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.54" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$12" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="38.4" y="57" smashed="yes"/>
+<element name="PAD12" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="48.14" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="48.14" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="45.34" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$13" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="51.2" y="57" smashed="yes"/>
+<element name="PAD13" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="60.94" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="60.94" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.14" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$14" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="64" y="57" smashed="yes"/>
+<element name="PAD14" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="73.74" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="73.74" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="70.94" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$15" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="76.8" y="57" smashed="yes"/>
+<element name="PAD15" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="86.54" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="86.54" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="83.74" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="U$16" library="MaKLib-Connectors-A" package="MALE-STRAIGHT-SMA-EDGEMOUNT" value="MALE-STRAIGHT-SMA-EDGEMOUNT" x="89.6" y="57" smashed="yes"/>
+<element name="PAD16" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="WIREPADSMD5-2,5" x="99.34" y="57" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="3" x="99.34" y="57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="96.54" y="56.9" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="J5" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="3.09" y="34.01" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="3.09" y="34.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX1" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="8.1" y="31.5" smashed="yes">
+<attribute name="NAME" x="11.17" y="31.5" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J3" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="19.39" y="34.01" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="19.39" y="34.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX2" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="24.4" y="31.5" smashed="yes">
+<attribute name="NAME" x="27.47" y="31.5" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J6" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="35.69" y="34.01" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="35.69" y="34.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX3" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="40.7" y="31.5" smashed="yes">
+<attribute name="NAME" x="43.77" y="31.5" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J7" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="51.99" y="34.01" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="51.99" y="34.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX4" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="57" y="31.5" smashed="yes">
+<attribute name="NAME" x="60.07" y="31.5" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J8" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="68.29" y="34.01" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="68.29" y="34.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX5" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="73.3" y="31.5" smashed="yes">
+<attribute name="NAME" x="76.37" y="31.5" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J9" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="84.59" y="34.01" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="84.59" y="34.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX6" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="89.6" y="31.5" smashed="yes">
+<attribute name="NAME" x="92.67" y="31.5" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J10" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="3.09" y="26.26" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="3.09" y="26.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX7" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="8.1" y="23.75" smashed="yes">
+<attribute name="NAME" x="11.17" y="23.75" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J11" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="19.39" y="26.26" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="19.39" y="26.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX8" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="24.4" y="23.75" smashed="yes">
+<attribute name="NAME" x="27.47" y="23.75" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J12" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="35.69" y="26.26" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="35.69" y="26.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX9" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="40.7" y="23.75" smashed="yes">
+<attribute name="NAME" x="43.77" y="23.75" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J13" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="51.99" y="26.26" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="51.99" y="26.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX10" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="57" y="23.75" smashed="yes">
+<attribute name="NAME" x="60.07" y="23.75" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J14" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="68.29" y="26.26" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="68.29" y="26.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX11" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="73.3" y="23.75" smashed="yes">
+<attribute name="NAME" x="76.37" y="23.75" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="J15" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="84.59" y="26.26" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="84.59" y="26.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="COAX12" library="MaKLib-Connectors-A" package="COAX-THROUGBOARD" value="COAX-THROUGBOARD" x="89.6" y="23.75" smashed="yes">
+<attribute name="NAME" x="92.67" y="23.75" size="0.4064" layer="25" align="center"/>
+</element>
+<element name="X2" library="MaKLib-Connectors-A" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="8.1" y="4.12" smashed="yes" rot="MR0"/>
+<element name="J16" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="3.1" y="9.95" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J17" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="3.09" y="18.51" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="3.09" y="18.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J18" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="8.1" y="15.7" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="8.1" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="8.1" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" x="8.1" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="8.1" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="8.1" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="8.1" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="X1" library="MaKLib-Connectors-A" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="24.4" y="4.12" smashed="yes" rot="MR0"/>
+<element name="J1" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="19.4" y="9.95" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="19.4" y="9.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J2" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="19.39" y="18.51" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="19.39" y="18.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J4" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="24.4" y="15.7" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="24.4" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="24.4" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" x="24.4" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="24.4" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="24.4" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="24.4" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="X3" library="MaKLib-Connectors-A" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="40.7" y="4.12" smashed="yes" rot="MR0"/>
+<element name="J19" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="35.7" y="9.95" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="35.7" y="9.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J20" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="35.69" y="18.51" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="35.69" y="18.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J21" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="40.7" y="15.7" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="40.7" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="40.7" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" x="40.7" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="40.7" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="40.7" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="40.7" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="X4" library="MaKLib-Connectors-A" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="57" y="4.12" smashed="yes" rot="MR0"/>
+<element name="J22" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="52" y="9.95" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="52" y="9.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J23" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="51.99" y="18.51" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="51.99" y="18.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J24" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="57" y="15.7" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="57" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="57" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" x="57" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="57" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="57" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="57" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="X5" library="MaKLib-Connectors-A" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="73.3" y="4.12" smashed="yes" rot="MR0"/>
+<element name="J25" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="68.3" y="9.95" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="68.3" y="9.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J26" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="68.29" y="18.51" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="68.29" y="18.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J27" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="73.3" y="15.7" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="73.3" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="73.3" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" x="73.3" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="73.3" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="73.3" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="73.3" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="X6" library="MaKLib-Connectors-A" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="89.6" y="4.12" smashed="yes" rot="MR0"/>
+<element name="J28" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="84.6" y="9.95" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="84.6" y="9.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J29" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="84.59" y="18.51" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="84.59" y="18.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J30" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="89.6" y="15.7" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="89.6" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="89.6" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" x="89.6" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="89.6" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="89.6" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="89.6" y="15.7" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+</elements>
+<signals>
+<signal name="N$3">
+<contactref element="U$1" pad="P$2"/>
+<contactref element="U$1" pad="P$4"/>
+<contactref element="U$1" pad="P$3"/>
+<contactref element="U$1" pad="P$5"/>
+<contactref element="PAD1" pad="1"/>
+<wire x1="2.786" y1="67.14" x2="7.2" y2="67.14" width="1" layer="1"/>
+<wire x1="7.2" y1="67.14" x2="9.74" y2="64.6" width="1" layer="1"/>
+<wire x1="9.74" y1="64.6" x2="7.2" y2="62.06" width="1" layer="1"/>
+<wire x1="7.2" y1="62.06" x2="2.786" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="U$2" pad="P$2"/>
+<contactref element="U$2" pad="P$4"/>
+<contactref element="U$2" pad="P$3"/>
+<contactref element="U$2" pad="P$5"/>
+<contactref element="PAD2" pad="1"/>
+<wire x1="15.586" y1="67.14" x2="20" y2="67.14" width="1" layer="1"/>
+<wire x1="20" y1="67.14" x2="22.54" y2="64.6" width="1" layer="1"/>
+<wire x1="22.54" y1="64.6" x2="20" y2="62.06" width="1" layer="1"/>
+<wire x1="20" y1="62.06" x2="15.586" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$3" pad="P$2"/>
+<contactref element="U$3" pad="P$4"/>
+<contactref element="U$3" pad="P$3"/>
+<contactref element="U$3" pad="P$5"/>
+<contactref element="PAD3" pad="1"/>
+<wire x1="28.386" y1="67.14" x2="32.8" y2="67.14" width="1" layer="1"/>
+<wire x1="32.8" y1="67.14" x2="35.34" y2="64.6" width="1" layer="1"/>
+<wire x1="35.34" y1="64.6" x2="32.8" y2="62.06" width="1" layer="1"/>
+<wire x1="32.8" y1="62.06" x2="28.386" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="U$4" pad="P$2"/>
+<contactref element="U$4" pad="P$4"/>
+<contactref element="U$4" pad="P$3"/>
+<contactref element="U$4" pad="P$5"/>
+<contactref element="PAD4" pad="1"/>
+<wire x1="41.186" y1="67.14" x2="45.6" y2="67.14" width="1" layer="1"/>
+<wire x1="45.6" y1="67.14" x2="48.14" y2="64.6" width="1" layer="1"/>
+<wire x1="48.14" y1="64.6" x2="45.6" y2="62.06" width="1" layer="1"/>
+<wire x1="45.6" y1="62.06" x2="41.186" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="U$5" pad="P$2"/>
+<contactref element="U$5" pad="P$4"/>
+<contactref element="U$5" pad="P$3"/>
+<contactref element="U$5" pad="P$5"/>
+<contactref element="PAD5" pad="1"/>
+<wire x1="53.986" y1="67.14" x2="58.4" y2="67.14" width="1" layer="1"/>
+<wire x1="58.4" y1="67.14" x2="60.94" y2="64.6" width="1" layer="1"/>
+<wire x1="60.94" y1="64.6" x2="58.4" y2="62.06" width="1" layer="1"/>
+<wire x1="58.4" y1="62.06" x2="53.986" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="U$6" pad="P$2"/>
+<contactref element="U$6" pad="P$4"/>
+<contactref element="U$6" pad="P$3"/>
+<contactref element="U$6" pad="P$5"/>
+<contactref element="PAD6" pad="1"/>
+<wire x1="66.786" y1="67.14" x2="71.2" y2="67.14" width="1" layer="1"/>
+<wire x1="71.2" y1="67.14" x2="73.74" y2="64.6" width="1" layer="1"/>
+<wire x1="73.74" y1="64.6" x2="71.2" y2="62.06" width="1" layer="1"/>
+<wire x1="71.2" y1="62.06" x2="66.786" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$19">
+<contactref element="U$7" pad="P$2"/>
+<contactref element="U$7" pad="P$4"/>
+<contactref element="U$7" pad="P$3"/>
+<contactref element="U$7" pad="P$5"/>
+<contactref element="PAD7" pad="1"/>
+<wire x1="79.586" y1="67.14" x2="84" y2="67.14" width="1" layer="1"/>
+<wire x1="84" y1="67.14" x2="86.54" y2="64.6" width="1" layer="1"/>
+<wire x1="86.54" y1="64.6" x2="84" y2="62.06" width="1" layer="1"/>
+<wire x1="84" y1="62.06" x2="79.586" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="U$8" pad="P$2"/>
+<contactref element="U$8" pad="P$4"/>
+<contactref element="U$8" pad="P$3"/>
+<contactref element="U$8" pad="P$5"/>
+<contactref element="PAD8" pad="1"/>
+<wire x1="92.386" y1="67.14" x2="96.8" y2="67.14" width="1" layer="1"/>
+<wire x1="96.8" y1="67.14" x2="99.34" y2="64.6" width="1" layer="1"/>
+<wire x1="99.34" y1="64.6" x2="96.8" y2="62.06" width="1" layer="1"/>
+<wire x1="96.8" y1="62.06" x2="92.386" y2="62.06" width="1" layer="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="U$9" pad="P$2"/>
+<contactref element="U$9" pad="P$4"/>
+<contactref element="U$9" pad="P$3"/>
+<contactref element="U$9" pad="P$5"/>
+<contactref element="PAD9" pad="1"/>
+<wire x1="2.786" y1="59.54" x2="7.2" y2="59.54" width="1" layer="1"/>
+<wire x1="7.2" y1="59.54" x2="9.74" y2="57" width="1" layer="1"/>
+<wire x1="9.74" y1="57" x2="7.2" y2="54.46" width="1" layer="1"/>
+<wire x1="7.2" y1="54.46" x2="2.786" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$26">
+<contactref element="U$10" pad="P$2"/>
+<contactref element="U$10" pad="P$4"/>
+<contactref element="U$10" pad="P$3"/>
+<contactref element="U$10" pad="P$5"/>
+<contactref element="PAD10" pad="1"/>
+<wire x1="15.586" y1="59.54" x2="20" y2="59.54" width="1" layer="1"/>
+<wire x1="20" y1="59.54" x2="22.54" y2="57" width="1" layer="1"/>
+<wire x1="22.54" y1="57" x2="20" y2="54.46" width="1" layer="1"/>
+<wire x1="20" y1="54.46" x2="15.586" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$27">
+<contactref element="U$11" pad="P$2"/>
+<contactref element="U$11" pad="P$4"/>
+<contactref element="U$11" pad="P$3"/>
+<contactref element="U$11" pad="P$5"/>
+<contactref element="PAD11" pad="1"/>
+<wire x1="28.386" y1="59.54" x2="32.8" y2="59.54" width="1" layer="1"/>
+<wire x1="32.8" y1="59.54" x2="35.34" y2="57" width="1" layer="1"/>
+<wire x1="35.34" y1="57" x2="32.8" y2="54.46" width="1" layer="1"/>
+<wire x1="32.8" y1="54.46" x2="28.386" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="U$12" pad="P$2"/>
+<contactref element="U$12" pad="P$4"/>
+<contactref element="U$12" pad="P$3"/>
+<contactref element="U$12" pad="P$5"/>
+<contactref element="PAD12" pad="1"/>
+<wire x1="41.186" y1="59.54" x2="45.6" y2="59.54" width="1" layer="1"/>
+<wire x1="45.6" y1="59.54" x2="48.14" y2="57" width="1" layer="1"/>
+<wire x1="48.14" y1="57" x2="45.6" y2="54.46" width="1" layer="1"/>
+<wire x1="45.6" y1="54.46" x2="41.186" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$29">
+<contactref element="U$13" pad="P$2"/>
+<contactref element="U$13" pad="P$4"/>
+<contactref element="U$13" pad="P$3"/>
+<contactref element="U$13" pad="P$5"/>
+<contactref element="PAD13" pad="1"/>
+<wire x1="53.986" y1="59.54" x2="58.4" y2="59.54" width="1" layer="1"/>
+<wire x1="58.4" y1="59.54" x2="60.94" y2="57" width="1" layer="1"/>
+<wire x1="60.94" y1="57" x2="58.4" y2="54.46" width="1" layer="1"/>
+<wire x1="58.4" y1="54.46" x2="53.986" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$30">
+<contactref element="U$14" pad="P$2"/>
+<contactref element="U$14" pad="P$4"/>
+<contactref element="U$14" pad="P$3"/>
+<contactref element="U$14" pad="P$5"/>
+<contactref element="PAD14" pad="1"/>
+<wire x1="66.786" y1="59.54" x2="71.2" y2="59.54" width="1" layer="1"/>
+<wire x1="71.2" y1="59.54" x2="73.74" y2="57" width="1" layer="1"/>
+<wire x1="73.74" y1="57" x2="71.2" y2="54.46" width="1" layer="1"/>
+<wire x1="71.2" y1="54.46" x2="66.786" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$31">
+<contactref element="U$15" pad="P$2"/>
+<contactref element="U$15" pad="P$4"/>
+<contactref element="U$15" pad="P$3"/>
+<contactref element="U$15" pad="P$5"/>
+<contactref element="PAD15" pad="1"/>
+<wire x1="79.586" y1="59.54" x2="84" y2="59.54" width="1" layer="1"/>
+<wire x1="84" y1="59.54" x2="86.54" y2="57" width="1" layer="1"/>
+<wire x1="86.54" y1="57" x2="84" y2="54.46" width="1" layer="1"/>
+<wire x1="84" y1="54.46" x2="79.586" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$32">
+<contactref element="U$16" pad="P$2"/>
+<contactref element="U$16" pad="P$4"/>
+<contactref element="U$16" pad="P$3"/>
+<contactref element="U$16" pad="P$5"/>
+<contactref element="PAD16" pad="1"/>
+<wire x1="92.386" y1="59.54" x2="96.8" y2="59.54" width="1" layer="1"/>
+<wire x1="96.8" y1="59.54" x2="99.34" y2="57" width="1" layer="1"/>
+<wire x1="99.34" y1="57" x2="96.8" y2="54.46" width="1" layer="1"/>
+<wire x1="96.8" y1="54.46" x2="92.386" y2="54.46" width="1" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="J5" pad="1"/>
+<contactref element="J5" pad="3"/>
+<contactref element="J5" pad="5"/>
+<contactref element="J5" pad="7"/>
+<contactref element="J5" pad="9"/>
+<contactref element="J5" pad="11"/>
+<wire x1="3.09" y1="36.01" x2="5.09" y2="36.01" width="0.5" layer="1"/>
+<wire x1="5.09" y1="36.01" x2="7.09" y2="36.01" width="0.5" layer="1"/>
+<wire x1="7.09" y1="36.01" x2="9.09" y2="36.01" width="0.5" layer="1"/>
+<wire x1="11.09" y1="36.01" x2="13.09" y2="36.01" width="0.5" layer="1"/>
+<wire x1="9.09" y1="36.01" x2="10.1" y2="35" width="0.4" layer="1"/>
+<wire x1="9.09" y1="36.01" x2="11.09" y2="36.01" width="0.5" layer="1"/>
+<contactref element="COAX1" pad="P$2"/>
+<wire x1="10.1" y1="35" x2="10.1" y2="32" width="0.4" layer="1"/>
+<wire x1="10.1" y1="32" x2="9.6" y2="31.5" width="0.4" layer="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="J5" pad="2"/>
+<contactref element="J5" pad="4"/>
+<contactref element="J5" pad="6"/>
+<contactref element="J5" pad="8"/>
+<contactref element="J5" pad="10"/>
+<contactref element="J5" pad="12"/>
+<wire x1="3.09" y1="34.01" x2="5.09" y2="34.01" width="0.5" layer="16"/>
+<wire x1="5.09" y1="34.01" x2="7.09" y2="34.01" width="0.5" layer="16"/>
+<wire x1="7.09" y1="34.01" x2="9.09" y2="34.01" width="0.5" layer="16"/>
+<wire x1="9.09" y1="34.01" x2="11.09" y2="34.01" width="0.5" layer="16"/>
+<wire x1="11.09" y1="34.01" x2="13.09" y2="34.01" width="0.5" layer="16"/>
+<contactref element="COAX1" pad="P$1"/>
+<wire x1="9.09" y1="34.01" x2="9.09" y2="32.49" width="0.4" layer="16"/>
+<wire x1="9.09" y1="32.49" x2="8.1" y2="31.5" width="0.4" layer="16"/>
+</signal>
+<signal name="N$11">
+<contactref element="J3" pad="1"/>
+<contactref element="J3" pad="3"/>
+<contactref element="J3" pad="5"/>
+<contactref element="J3" pad="7"/>
+<contactref element="J3" pad="9"/>
+<contactref element="J3" pad="11"/>
+<wire x1="19.39" y1="36.01" x2="21.39" y2="36.01" width="0.5" layer="1"/>
+<wire x1="21.39" y1="36.01" x2="23.39" y2="36.01" width="0.5" layer="1"/>
+<wire x1="23.39" y1="36.01" x2="25.39" y2="36.01" width="0.5" layer="1"/>
+<wire x1="27.39" y1="36.01" x2="29.39" y2="36.01" width="0.5" layer="1"/>
+<wire x1="25.39" y1="36.01" x2="26.4" y2="35" width="0.4" layer="1"/>
+<wire x1="25.39" y1="36.01" x2="27.39" y2="36.01" width="0.5" layer="1"/>
+<contactref element="COAX2" pad="P$2"/>
+<wire x1="26.4" y1="35" x2="26.4" y2="32" width="0.4" layer="1"/>
+<wire x1="26.4" y1="32" x2="25.9" y2="31.5" width="0.4" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="J3" pad="2"/>
+<contactref element="J3" pad="4"/>
+<contactref element="J3" pad="6"/>
+<contactref element="J3" pad="8"/>
+<contactref element="J3" pad="10"/>
+<contactref element="J3" pad="12"/>
+<wire x1="19.39" y1="34.01" x2="21.39" y2="34.01" width="0.5" layer="16"/>
+<wire x1="21.39" y1="34.01" x2="23.39" y2="34.01" width="0.5" layer="16"/>
+<wire x1="23.39" y1="34.01" x2="25.39" y2="34.01" width="0.5" layer="16"/>
+<wire x1="25.39" y1="34.01" x2="27.39" y2="34.01" width="0.5" layer="16"/>
+<wire x1="27.39" y1="34.01" x2="29.39" y2="34.01" width="0.5" layer="16"/>
+<contactref element="COAX2" pad="P$1"/>
+<wire x1="25.39" y1="34.01" x2="25.39" y2="32.49" width="0.4" layer="16"/>
+<wire x1="25.39" y1="32.49" x2="24.4" y2="31.5" width="0.4" layer="16"/>
+</signal>
+<signal name="N$13">
+<contactref element="J6" pad="1"/>
+<contactref element="J6" pad="3"/>
+<contactref element="J6" pad="5"/>
+<contactref element="J6" pad="7"/>
+<contactref element="J6" pad="9"/>
+<contactref element="J6" pad="11"/>
+<wire x1="35.69" y1="36.01" x2="37.69" y2="36.01" width="0.5" layer="1"/>
+<wire x1="37.69" y1="36.01" x2="39.69" y2="36.01" width="0.5" layer="1"/>
+<wire x1="39.69" y1="36.01" x2="41.69" y2="36.01" width="0.5" layer="1"/>
+<wire x1="43.69" y1="36.01" x2="45.69" y2="36.01" width="0.5" layer="1"/>
+<wire x1="41.69" y1="36.01" x2="42.7" y2="35" width="0.4" layer="1"/>
+<wire x1="41.69" y1="36.01" x2="43.69" y2="36.01" width="0.5" layer="1"/>
+<contactref element="COAX3" pad="P$2"/>
+<wire x1="42.7" y1="35" x2="42.7" y2="32" width="0.4" layer="1"/>
+<wire x1="42.7" y1="32" x2="42.2" y2="31.5" width="0.4" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="J6" pad="2"/>
+<contactref element="J6" pad="4"/>
+<contactref element="J6" pad="6"/>
+<contactref element="J6" pad="8"/>
+<contactref element="J6" pad="10"/>
+<contactref element="J6" pad="12"/>
+<wire x1="35.69" y1="34.01" x2="37.69" y2="34.01" width="0.5" layer="16"/>
+<wire x1="37.69" y1="34.01" x2="39.69" y2="34.01" width="0.5" layer="16"/>
+<wire x1="39.69" y1="34.01" x2="41.69" y2="34.01" width="0.5" layer="16"/>
+<wire x1="41.69" y1="34.01" x2="43.69" y2="34.01" width="0.5" layer="16"/>
+<wire x1="43.69" y1="34.01" x2="45.69" y2="34.01" width="0.5" layer="16"/>
+<contactref element="COAX3" pad="P$1"/>
+<wire x1="41.69" y1="34.01" x2="41.69" y2="32.49" width="0.4" layer="16"/>
+<wire x1="41.69" y1="32.49" x2="40.7" y2="31.5" width="0.4" layer="16"/>
+</signal>
+<signal name="N$15">
+<contactref element="J7" pad="1"/>
+<contactref element="J7" pad="3"/>
+<contactref element="J7" pad="5"/>
+<contactref element="J7" pad="7"/>
+<contactref element="J7" pad="9"/>
+<contactref element="J7" pad="11"/>
+<wire x1="51.99" y1="36.01" x2="53.99" y2="36.01" width="0.5" layer="1"/>
+<wire x1="53.99" y1="36.01" x2="55.99" y2="36.01" width="0.5" layer="1"/>
+<wire x1="55.99" y1="36.01" x2="57.99" y2="36.01" width="0.5" layer="1"/>
+<wire x1="59.99" y1="36.01" x2="61.99" y2="36.01" width="0.5" layer="1"/>
+<wire x1="57.99" y1="36.01" x2="59" y2="35" width="0.4" layer="1"/>
+<wire x1="57.99" y1="36.01" x2="59.99" y2="36.01" width="0.5" layer="1"/>
+<contactref element="COAX4" pad="P$2"/>
+<wire x1="59" y1="35" x2="59" y2="32" width="0.4" layer="1"/>
+<wire x1="59" y1="32" x2="58.5" y2="31.5" width="0.4" layer="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="J7" pad="2"/>
+<contactref element="J7" pad="4"/>
+<contactref element="J7" pad="6"/>
+<contactref element="J7" pad="8"/>
+<contactref element="J7" pad="10"/>
+<contactref element="J7" pad="12"/>
+<wire x1="51.99" y1="34.01" x2="53.99" y2="34.01" width="0.5" layer="16"/>
+<wire x1="53.99" y1="34.01" x2="55.99" y2="34.01" width="0.5" layer="16"/>
+<wire x1="55.99" y1="34.01" x2="57.99" y2="34.01" width="0.5" layer="16"/>
+<wire x1="57.99" y1="34.01" x2="59.99" y2="34.01" width="0.5" layer="16"/>
+<wire x1="59.99" y1="34.01" x2="61.99" y2="34.01" width="0.5" layer="16"/>
+<contactref element="COAX4" pad="P$1"/>
+<wire x1="57.99" y1="34.01" x2="57.99" y2="32.49" width="0.4" layer="16"/>
+<wire x1="57.99" y1="32.49" x2="57" y2="31.5" width="0.4" layer="16"/>
+</signal>
+<signal name="N$21">
+<contactref element="J8" pad="1"/>
+<contactref element="J8" pad="3"/>
+<contactref element="J8" pad="5"/>
+<contactref element="J8" pad="7"/>
+<contactref element="J8" pad="9"/>
+<contactref element="J8" pad="11"/>
+<wire x1="68.29" y1="36.01" x2="70.29" y2="36.01" width="0.5" layer="1"/>
+<wire x1="70.29" y1="36.01" x2="72.29" y2="36.01" width="0.5" layer="1"/>
+<wire x1="72.29" y1="36.01" x2="74.29" y2="36.01" width="0.5" layer="1"/>
+<wire x1="76.29" y1="36.01" x2="78.29" y2="36.01" width="0.5" layer="1"/>
+<wire x1="74.29" y1="36.01" x2="75.3" y2="35" width="0.4" layer="1"/>
+<wire x1="74.29" y1="36.01" x2="76.29" y2="36.01" width="0.5" layer="1"/>
+<contactref element="COAX5" pad="P$2"/>
+<wire x1="75.3" y1="35" x2="75.3" y2="32" width="0.4" layer="1"/>
+<wire x1="75.3" y1="32" x2="74.8" y2="31.5" width="0.4" layer="1"/>
+</signal>
+<signal name="N$22">
+<contactref element="J8" pad="2"/>
+<contactref element="J8" pad="4"/>
+<contactref element="J8" pad="6"/>
+<contactref element="J8" pad="8"/>
+<contactref element="J8" pad="10"/>
+<contactref element="J8" pad="12"/>
+<wire x1="68.29" y1="34.01" x2="70.29" y2="34.01" width="0.5" layer="16"/>
+<wire x1="70.29" y1="34.01" x2="72.29" y2="34.01" width="0.5" layer="16"/>
+<wire x1="72.29" y1="34.01" x2="74.29" y2="34.01" width="0.5" layer="16"/>
+<wire x1="74.29" y1="34.01" x2="76.29" y2="34.01" width="0.5" layer="16"/>
+<wire x1="76.29" y1="34.01" x2="78.29" y2="34.01" width="0.5" layer="16"/>
+<contactref element="COAX5" pad="P$1"/>
+<wire x1="74.29" y1="34.01" x2="74.29" y2="32.49" width="0.4" layer="16"/>
+<wire x1="74.29" y1="32.49" x2="73.3" y2="31.5" width="0.4" layer="16"/>
+</signal>
+<signal name="N$23">
+<contactref element="J9" pad="1"/>
+<contactref element="J9" pad="3"/>
+<contactref element="J9" pad="5"/>
+<contactref element="J9" pad="7"/>
+<contactref element="J9" pad="9"/>
+<contactref element="J9" pad="11"/>
+<wire x1="84.59" y1="36.01" x2="86.59" y2="36.01" width="0.5" layer="1"/>
+<wire x1="86.59" y1="36.01" x2="88.59" y2="36.01" width="0.5" layer="1"/>
+<wire x1="88.59" y1="36.01" x2="90.59" y2="36.01" width="0.5" layer="1"/>
+<wire x1="92.59" y1="36.01" x2="94.59" y2="36.01" width="0.5" layer="1"/>
+<wire x1="90.59" y1="36.01" x2="91.6" y2="35" width="0.4" layer="1"/>
+<wire x1="90.59" y1="36.01" x2="92.59" y2="36.01" width="0.5" layer="1"/>
+<contactref element="COAX6" pad="P$2"/>
+<wire x1="91.6" y1="35" x2="91.6" y2="32" width="0.4" layer="1"/>
+<wire x1="91.6" y1="32" x2="91.1" y2="31.5" width="0.4" layer="1"/>
+</signal>
+<signal name="N$24">
+<contactref element="J9" pad="2"/>
+<contactref element="J9" pad="4"/>
+<contactref element="J9" pad="6"/>
+<contactref element="J9" pad="8"/>
+<contactref element="J9" pad="10"/>
+<contactref element="J9" pad="12"/>
+<wire x1="84.59" y1="34.01" x2="86.59" y2="34.01" width="0.5" layer="16"/>
+<wire x1="86.59" y1="34.01" x2="88.59" y2="34.01" width="0.5" layer="16"/>
+<wire x1="88.59" y1="34.01" x2="90.59" y2="34.01" width="0.5" layer="16"/>
+<wire x1="90.59" y1="34.01" x2="92.59" y2="34.01" width="0.5" layer="16"/>
+<wire x1="92.59" y1="34.01" x2="94.59" y2="34.01" width="0.5" layer="16"/>
+<contactref element="COAX6" pad="P$1"/>
+<wire x1="90.59" y1="34.01" x2="90.59" y2="32.49" width="0.4" layer="16"/>
+<wire x1="90.59" y1="32.49" x2="89.6" y2="31.5" width="0.4" layer="16"/>
+</signal>
+<signal name="N$33">
+<contactref element="J10" pad="1"/>
+<contactref element="J10" pad="3"/>
+<contactref element="J10" pad="5"/>
+<contactref element="J10" pad="7"/>
+<contactref element="J10" pad="9"/>
+<contactref element="J10" pad="11"/>
+<wire x1="3.09" y1="28.26" x2="5.09" y2="28.26" width="0.5" layer="1"/>
+<wire x1="5.09" y1="28.26" x2="7.09" y2="28.26" width="0.5" layer="1"/>
+<wire x1="7.09" y1="28.26" x2="9.09" y2="28.26" width="0.5" layer="1"/>
+<wire x1="11.09" y1="28.26" x2="13.09" y2="28.26" width="0.5" layer="1"/>
+<wire x1="9.09" y1="28.26" x2="10.1" y2="27.25" width="0.4" layer="1"/>
+<wire x1="9.09" y1="28.26" x2="11.09" y2="28.26" width="0.5" layer="1"/>
+<contactref element="COAX7" pad="P$2"/>
+<wire x1="10.1" y1="27.25" x2="10.1" y2="24.25" width="0.4" layer="1"/>
+<wire x1="10.1" y1="24.25" x2="9.6" y2="23.75" width="0.4" layer="1"/>
+</signal>
+<signal name="N$34">
+<contactref element="J10" pad="2"/>
+<contactref element="J10" pad="4"/>
+<contactref element="J10" pad="6"/>
+<contactref element="J10" pad="8"/>
+<contactref element="J10" pad="10"/>
+<contactref element="J10" pad="12"/>
+<wire x1="3.09" y1="26.26" x2="5.09" y2="26.26" width="0.5" layer="16"/>
+<wire x1="5.09" y1="26.26" x2="7.09" y2="26.26" width="0.5" layer="16"/>
+<wire x1="7.09" y1="26.26" x2="9.09" y2="26.26" width="0.5" layer="16"/>
+<wire x1="9.09" y1="26.26" x2="11.09" y2="26.26" width="0.5" layer="16"/>
+<wire x1="11.09" y1="26.26" x2="13.09" y2="26.26" width="0.5" layer="16"/>
+<contactref element="COAX7" pad="P$1"/>
+<wire x1="9.09" y1="26.26" x2="9.09" y2="24.74" width="0.4" layer="16"/>
+<wire x1="9.09" y1="24.74" x2="8.1" y2="23.75" width="0.4" layer="16"/>
+</signal>
+<signal name="N$35">
+<contactref element="J11" pad="1"/>
+<contactref element="J11" pad="3"/>
+<contactref element="J11" pad="5"/>
+<contactref element="J11" pad="7"/>
+<contactref element="J11" pad="9"/>
+<contactref element="J11" pad="11"/>
+<wire x1="19.39" y1="28.26" x2="21.39" y2="28.26" width="0.5" layer="1"/>
+<wire x1="21.39" y1="28.26" x2="23.39" y2="28.26" width="0.5" layer="1"/>
+<wire x1="23.39" y1="28.26" x2="25.39" y2="28.26" width="0.5" layer="1"/>
+<wire x1="27.39" y1="28.26" x2="29.39" y2="28.26" width="0.5" layer="1"/>
+<wire x1="25.39" y1="28.26" x2="26.4" y2="27.25" width="0.4" layer="1"/>
+<wire x1="25.39" y1="28.26" x2="27.39" y2="28.26" width="0.5" layer="1"/>
+<contactref element="COAX8" pad="P$2"/>
+<wire x1="26.4" y1="27.25" x2="26.4" y2="24.25" width="0.4" layer="1"/>
+<wire x1="26.4" y1="24.25" x2="25.9" y2="23.75" width="0.4" layer="1"/>
+</signal>
+<signal name="N$36">
+<contactref element="J11" pad="2"/>
+<contactref element="J11" pad="4"/>
+<contactref element="J11" pad="6"/>
+<contactref element="J11" pad="8"/>
+<contactref element="J11" pad="10"/>
+<contactref element="J11" pad="12"/>
+<wire x1="19.39" y1="26.26" x2="21.39" y2="26.26" width="0.5" layer="16"/>
+<wire x1="21.39" y1="26.26" x2="23.39" y2="26.26" width="0.5" layer="16"/>
+<wire x1="23.39" y1="26.26" x2="25.39" y2="26.26" width="0.5" layer="16"/>
+<wire x1="25.39" y1="26.26" x2="27.39" y2="26.26" width="0.5" layer="16"/>
+<wire x1="27.39" y1="26.26" x2="29.39" y2="26.26" width="0.5" layer="16"/>
+<contactref element="COAX8" pad="P$1"/>
+<wire x1="25.39" y1="26.26" x2="25.39" y2="24.74" width="0.4" layer="16"/>
+<wire x1="25.39" y1="24.74" x2="24.4" y2="23.75" width="0.4" layer="16"/>
+</signal>
+<signal name="N$37">
+<contactref element="J12" pad="1"/>
+<contactref element="J12" pad="3"/>
+<contactref element="J12" pad="5"/>
+<contactref element="J12" pad="7"/>
+<contactref element="J12" pad="9"/>
+<contactref element="J12" pad="11"/>
+<wire x1="35.69" y1="28.26" x2="37.69" y2="28.26" width="0.5" layer="1"/>
+<wire x1="37.69" y1="28.26" x2="39.69" y2="28.26" width="0.5" layer="1"/>
+<wire x1="39.69" y1="28.26" x2="41.69" y2="28.26" width="0.5" layer="1"/>
+<wire x1="43.69" y1="28.26" x2="45.69" y2="28.26" width="0.5" layer="1"/>
+<wire x1="41.69" y1="28.26" x2="42.7" y2="27.25" width="0.4" layer="1"/>
+<wire x1="41.69" y1="28.26" x2="43.69" y2="28.26" width="0.5" layer="1"/>
+<contactref element="COAX9" pad="P$2"/>
+<wire x1="42.7" y1="27.25" x2="42.7" y2="24.25" width="0.4" layer="1"/>
+<wire x1="42.7" y1="24.25" x2="42.2" y2="23.75" width="0.4" layer="1"/>
+</signal>
+<signal name="N$38">
+<contactref element="J12" pad="2"/>
+<contactref element="J12" pad="4"/>
+<contactref element="J12" pad="6"/>
+<contactref element="J12" pad="8"/>
+<contactref element="J12" pad="10"/>
+<contactref element="J12" pad="12"/>
+<wire x1="35.69" y1="26.26" x2="37.69" y2="26.26" width="0.5" layer="16"/>
+<wire x1="37.69" y1="26.26" x2="39.69" y2="26.26" width="0.5" layer="16"/>
+<wire x1="39.69" y1="26.26" x2="41.69" y2="26.26" width="0.5" layer="16"/>
+<wire x1="41.69" y1="26.26" x2="43.69" y2="26.26" width="0.5" layer="16"/>
+<wire x1="43.69" y1="26.26" x2="45.69" y2="26.26" width="0.5" layer="16"/>
+<contactref element="COAX9" pad="P$1"/>
+<wire x1="41.69" y1="26.26" x2="41.69" y2="24.74" width="0.4" layer="16"/>
+<wire x1="41.69" y1="24.74" x2="40.7" y2="23.75" width="0.4" layer="16"/>
+</signal>
+<signal name="N$39">
+<contactref element="J13" pad="1"/>
+<contactref element="J13" pad="3"/>
+<contactref element="J13" pad="5"/>
+<contactref element="J13" pad="7"/>
+<contactref element="J13" pad="9"/>
+<contactref element="J13" pad="11"/>
+<wire x1="51.99" y1="28.26" x2="53.99" y2="28.26" width="0.5" layer="1"/>
+<wire x1="53.99" y1="28.26" x2="55.99" y2="28.26" width="0.5" layer="1"/>
+<wire x1="55.99" y1="28.26" x2="57.99" y2="28.26" width="0.5" layer="1"/>
+<wire x1="59.99" y1="28.26" x2="61.99" y2="28.26" width="0.5" layer="1"/>
+<wire x1="57.99" y1="28.26" x2="59" y2="27.25" width="0.4" layer="1"/>
+<wire x1="57.99" y1="28.26" x2="59.99" y2="28.26" width="0.5" layer="1"/>
+<contactref element="COAX10" pad="P$2"/>
+<wire x1="59" y1="27.25" x2="59" y2="24.25" width="0.4" layer="1"/>
+<wire x1="59" y1="24.25" x2="58.5" y2="23.75" width="0.4" layer="1"/>
+</signal>
+<signal name="N$40">
+<contactref element="J13" pad="2"/>
+<contactref element="J13" pad="4"/>
+<contactref element="J13" pad="6"/>
+<contactref element="J13" pad="8"/>
+<contactref element="J13" pad="10"/>
+<contactref element="J13" pad="12"/>
+<wire x1="51.99" y1="26.26" x2="53.99" y2="26.26" width="0.5" layer="16"/>
+<wire x1="53.99" y1="26.26" x2="55.99" y2="26.26" width="0.5" layer="16"/>
+<wire x1="55.99" y1="26.26" x2="57.99" y2="26.26" width="0.5" layer="16"/>
+<wire x1="57.99" y1="26.26" x2="59.99" y2="26.26" width="0.5" layer="16"/>
+<wire x1="59.99" y1="26.26" x2="61.99" y2="26.26" width="0.5" layer="16"/>
+<contactref element="COAX10" pad="P$1"/>
+<wire x1="57.99" y1="26.26" x2="57.99" y2="24.74" width="0.4" layer="16"/>
+<wire x1="57.99" y1="24.74" x2="57" y2="23.75" width="0.4" layer="16"/>
+</signal>
+<signal name="N$41">
+<contactref element="J14" pad="1"/>
+<contactref element="J14" pad="3"/>
+<contactref element="J14" pad="5"/>
+<contactref element="J14" pad="7"/>
+<contactref element="J14" pad="9"/>
+<contactref element="J14" pad="11"/>
+<wire x1="68.29" y1="28.26" x2="70.29" y2="28.26" width="0.5" layer="1"/>
+<wire x1="70.29" y1="28.26" x2="72.29" y2="28.26" width="0.5" layer="1"/>
+<wire x1="72.29" y1="28.26" x2="74.29" y2="28.26" width="0.5" layer="1"/>
+<wire x1="76.29" y1="28.26" x2="78.29" y2="28.26" width="0.5" layer="1"/>
+<wire x1="74.29" y1="28.26" x2="75.3" y2="27.25" width="0.4" layer="1"/>
+<wire x1="74.29" y1="28.26" x2="76.29" y2="28.26" width="0.5" layer="1"/>
+<contactref element="COAX11" pad="P$2"/>
+<wire x1="75.3" y1="27.25" x2="75.3" y2="24.25" width="0.4" layer="1"/>
+<wire x1="75.3" y1="24.25" x2="74.8" y2="23.75" width="0.4" layer="1"/>
+</signal>
+<signal name="N$42">
+<contactref element="J14" pad="2"/>
+<contactref element="J14" pad="4"/>
+<contactref element="J14" pad="6"/>
+<contactref element="J14" pad="8"/>
+<contactref element="J14" pad="10"/>
+<contactref element="J14" pad="12"/>
+<wire x1="68.29" y1="26.26" x2="70.29" y2="26.26" width="0.5" layer="16"/>
+<wire x1="70.29" y1="26.26" x2="72.29" y2="26.26" width="0.5" layer="16"/>
+<wire x1="72.29" y1="26.26" x2="74.29" y2="26.26" width="0.5" layer="16"/>
+<wire x1="74.29" y1="26.26" x2="76.29" y2="26.26" width="0.5" layer="16"/>
+<wire x1="76.29" y1="26.26" x2="78.29" y2="26.26" width="0.5" layer="16"/>
+<contactref element="COAX11" pad="P$1"/>
+<wire x1="74.29" y1="26.26" x2="74.29" y2="24.74" width="0.4" layer="16"/>
+<wire x1="74.29" y1="24.74" x2="73.3" y2="23.75" width="0.4" layer="16"/>
+</signal>
+<signal name="N$43">
+<contactref element="J15" pad="1"/>
+<contactref element="J15" pad="3"/>
+<contactref element="J15" pad="5"/>
+<contactref element="J15" pad="7"/>
+<contactref element="J15" pad="9"/>
+<contactref element="J15" pad="11"/>
+<wire x1="84.59" y1="28.26" x2="86.59" y2="28.26" width="0.5" layer="1"/>
+<wire x1="86.59" y1="28.26" x2="88.59" y2="28.26" width="0.5" layer="1"/>
+<wire x1="88.59" y1="28.26" x2="90.59" y2="28.26" width="0.5" layer="1"/>
+<wire x1="92.59" y1="28.26" x2="94.59" y2="28.26" width="0.5" layer="1"/>
+<wire x1="90.59" y1="28.26" x2="91.6" y2="27.25" width="0.4" layer="1"/>
+<wire x1="90.59" y1="28.26" x2="92.59" y2="28.26" width="0.5" layer="1"/>
+<contactref element="COAX12" pad="P$2"/>
+<wire x1="91.6" y1="27.25" x2="91.6" y2="24.25" width="0.4" layer="1"/>
+<wire x1="91.6" y1="24.25" x2="91.1" y2="23.75" width="0.4" layer="1"/>
+</signal>
+<signal name="N$44">
+<contactref element="J15" pad="2"/>
+<contactref element="J15" pad="4"/>
+<contactref element="J15" pad="6"/>
+<contactref element="J15" pad="8"/>
+<contactref element="J15" pad="10"/>
+<contactref element="J15" pad="12"/>
+<wire x1="84.59" y1="26.26" x2="86.59" y2="26.26" width="0.5" layer="16"/>
+<wire x1="86.59" y1="26.26" x2="88.59" y2="26.26" width="0.5" layer="16"/>
+<wire x1="88.59" y1="26.26" x2="90.59" y2="26.26" width="0.5" layer="16"/>
+<wire x1="90.59" y1="26.26" x2="92.59" y2="26.26" width="0.5" layer="16"/>
+<wire x1="92.59" y1="26.26" x2="94.59" y2="26.26" width="0.5" layer="16"/>
+<contactref element="COAX12" pad="P$1"/>
+<wire x1="90.59" y1="26.26" x2="90.59" y2="24.74" width="0.4" layer="16"/>
+<wire x1="90.59" y1="24.74" x2="89.6" y2="23.75" width="0.4" layer="16"/>
+</signal>
+<signal name="N$45">
+<contactref element="X2" pad="1"/>
+<contactref element="J16" pad="1"/>
+<contactref element="J16" pad="3"/>
+<contactref element="J16" pad="5"/>
+<contactref element="J16" pad="7"/>
+<contactref element="J16" pad="9"/>
+<contactref element="J16" pad="11"/>
+<wire x1="3.1" y1="11.95" x2="5.1" y2="11.95" width="0.5" layer="1"/>
+<wire x1="5.1" y1="11.95" x2="7.1" y2="11.95" width="0.5" layer="1"/>
+<wire x1="7.1" y1="11.95" x2="8.11" y2="11.95" width="0.5" layer="1"/>
+<wire x1="8.11" y1="11.95" x2="9.1" y2="11.95" width="0.5" layer="1"/>
+<wire x1="9.1" y1="11.95" x2="11.1" y2="11.95" width="0.5" layer="1"/>
+<wire x1="11.1" y1="11.95" x2="13.1" y2="11.95" width="0.5" layer="1"/>
+<wire x1="8.1" y1="4.12" x2="8.1" y2="11.94" width="0.4" layer="1"/>
+<wire x1="8.1" y1="11.94" x2="8.11" y2="11.95" width="0.4" layer="1"/>
+</signal>
+<signal name="N$46">
+<contactref element="X2" pad="5"/>
+<contactref element="X2" pad="3"/>
+<contactref element="X2" pad="4"/>
+<contactref element="X2" pad="2"/>
+<contactref element="J16" pad="2"/>
+<contactref element="J16" pad="4"/>
+<contactref element="J16" pad="6"/>
+<contactref element="J16" pad="8"/>
+<contactref element="J16" pad="10"/>
+<contactref element="J16" pad="12"/>
+<wire x1="3.1" y1="9.95" x2="5.1" y2="9.95" width="0.5" layer="16"/>
+<wire x1="5.1" y1="9.95" x2="7.1" y2="9.95" width="0.5" layer="16"/>
+<wire x1="7.1" y1="9.95" x2="9.1" y2="9.95" width="0.5" layer="16"/>
+<wire x1="9.1" y1="9.95" x2="11.1" y2="9.95" width="0.5" layer="16"/>
+<wire x1="11.1" y1="9.95" x2="13.1" y2="9.95" width="0.5" layer="16"/>
+<wire x1="13.1" y1="9.95" x2="10.6499" y2="7.4999" width="0.4" layer="16"/>
+<wire x1="10.6499" y1="7.4999" x2="10.6499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="10.6499" y1="1.5701" x2="10.6499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="5.5501" y1="1.5701" x2="5.5501" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="5.5501" y1="1.5701" x2="10.6499" y2="1.5701" width="0.5" layer="16"/>
+</signal>
+<signal name="N$47">
+<contactref element="J17" pad="1"/>
+<contactref element="J17" pad="3"/>
+<contactref element="J17" pad="5"/>
+<contactref element="J17" pad="7"/>
+<contactref element="J17" pad="9"/>
+<contactref element="J17" pad="11"/>
+<wire x1="3.09" y1="20.51" x2="5.09" y2="20.51" width="0.5" layer="1"/>
+<wire x1="5.09" y1="20.51" x2="7.09" y2="20.51" width="0.5" layer="1"/>
+<wire x1="7.09" y1="20.51" x2="9.09" y2="20.51" width="0.5" layer="1"/>
+<wire x1="11.09" y1="20.51" x2="13.09" y2="20.51" width="0.5" layer="1"/>
+<wire x1="9.09" y1="20.51" x2="11.09" y2="20.51" width="0.5" layer="1"/>
+<contactref element="J18" pad="3"/>
+<wire x1="8.1" y1="17.225" x2="13.875" y2="17.225" width="0.4" layer="16"/>
+<wire x1="13.875" y1="17.225" x2="14.25" y2="17.6" width="0.4" layer="16"/>
+<wire x1="14.25" y1="17.6" x2="14.25" y2="19.35" width="0.4" layer="16"/>
+<wire x1="14.25" y1="19.35" x2="13.09" y2="20.51" width="0.4" layer="16"/>
+</signal>
+<signal name="N$48">
+<contactref element="J17" pad="2"/>
+<contactref element="J17" pad="4"/>
+<contactref element="J17" pad="6"/>
+<contactref element="J17" pad="8"/>
+<contactref element="J17" pad="10"/>
+<contactref element="J17" pad="12"/>
+<wire x1="3.09" y1="18.51" x2="5.09" y2="18.51" width="0.5" layer="16"/>
+<wire x1="5.09" y1="18.51" x2="7.09" y2="18.51" width="0.5" layer="16"/>
+<wire x1="7.09" y1="18.51" x2="9.09" y2="18.51" width="0.5" layer="16"/>
+<wire x1="9.09" y1="18.51" x2="11.09" y2="18.51" width="0.5" layer="16"/>
+<wire x1="11.09" y1="18.51" x2="13.09" y2="18.51" width="0.5" layer="16"/>
+<contactref element="J18" pad="2"/>
+<contactref element="J18" pad="1"/>
+<wire x1="6.625" y1="15.7" x2="5.09" y2="17.235" width="0.4" layer="16"/>
+<wire x1="5.09" y1="17.235" x2="5.09" y2="18.51" width="0.4" layer="16"/>
+<wire x1="9.575" y1="15.7" x2="6.625" y2="15.7" width="0.4" layer="16"/>
+</signal>
+<signal name="N$4">
+<contactref element="X1" pad="1"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J1" pad="3"/>
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="7"/>
+<contactref element="J1" pad="9"/>
+<contactref element="J1" pad="11"/>
+<wire x1="19.4" y1="11.95" x2="21.4" y2="11.95" width="0.5" layer="1"/>
+<wire x1="21.4" y1="11.95" x2="23.4" y2="11.95" width="0.5" layer="1"/>
+<wire x1="23.4" y1="11.95" x2="24.41" y2="11.95" width="0.5" layer="1"/>
+<wire x1="24.41" y1="11.95" x2="25.4" y2="11.95" width="0.5" layer="1"/>
+<wire x1="25.4" y1="11.95" x2="27.4" y2="11.95" width="0.5" layer="1"/>
+<wire x1="27.4" y1="11.95" x2="29.4" y2="11.95" width="0.5" layer="1"/>
+<wire x1="24.4" y1="4.12" x2="24.4" y2="11.94" width="0.4" layer="1"/>
+<wire x1="24.4" y1="11.94" x2="24.41" y2="11.95" width="0.4" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="X1" pad="5"/>
+<contactref element="X1" pad="3"/>
+<contactref element="X1" pad="4"/>
+<contactref element="X1" pad="2"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J1" pad="4"/>
+<contactref element="J1" pad="6"/>
+<contactref element="J1" pad="8"/>
+<contactref element="J1" pad="10"/>
+<contactref element="J1" pad="12"/>
+<wire x1="19.4" y1="9.95" x2="21.4" y2="9.95" width="0.5" layer="16"/>
+<wire x1="21.4" y1="9.95" x2="23.4" y2="9.95" width="0.5" layer="16"/>
+<wire x1="23.4" y1="9.95" x2="25.4" y2="9.95" width="0.5" layer="16"/>
+<wire x1="25.4" y1="9.95" x2="27.4" y2="9.95" width="0.5" layer="16"/>
+<wire x1="27.4" y1="9.95" x2="29.4" y2="9.95" width="0.5" layer="16"/>
+<wire x1="29.4" y1="9.95" x2="26.9499" y2="7.4999" width="0.4" layer="16"/>
+<wire x1="26.9499" y1="7.4999" x2="26.9499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="26.9499" y1="1.5701" x2="26.9499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="21.8501" y1="1.5701" x2="21.8501" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="21.8501" y1="1.5701" x2="26.9499" y2="1.5701" width="0.5" layer="16"/>
+</signal>
+<signal name="N$6">
+<contactref element="J2" pad="1"/>
+<contactref element="J2" pad="3"/>
+<contactref element="J2" pad="5"/>
+<contactref element="J2" pad="7"/>
+<contactref element="J2" pad="9"/>
+<contactref element="J2" pad="11"/>
+<wire x1="19.39" y1="20.51" x2="21.39" y2="20.51" width="0.5" layer="1"/>
+<wire x1="21.39" y1="20.51" x2="23.39" y2="20.51" width="0.5" layer="1"/>
+<wire x1="23.39" y1="20.51" x2="25.39" y2="20.51" width="0.5" layer="1"/>
+<wire x1="27.39" y1="20.51" x2="29.39" y2="20.51" width="0.5" layer="1"/>
+<wire x1="25.39" y1="20.51" x2="27.39" y2="20.51" width="0.5" layer="1"/>
+<contactref element="J4" pad="3"/>
+<wire x1="24.4" y1="17.225" x2="30.175" y2="17.225" width="0.4" layer="16"/>
+<wire x1="30.175" y1="17.225" x2="30.55" y2="17.6" width="0.4" layer="16"/>
+<wire x1="30.55" y1="17.6" x2="30.55" y2="19.35" width="0.4" layer="16"/>
+<wire x1="30.55" y1="19.35" x2="29.39" y2="20.51" width="0.4" layer="16"/>
+</signal>
+<signal name="N$7">
+<contactref element="J2" pad="2"/>
+<contactref element="J2" pad="4"/>
+<contactref element="J2" pad="6"/>
+<contactref element="J2" pad="8"/>
+<contactref element="J2" pad="10"/>
+<contactref element="J2" pad="12"/>
+<wire x1="19.39" y1="18.51" x2="21.39" y2="18.51" width="0.5" layer="16"/>
+<wire x1="21.39" y1="18.51" x2="23.39" y2="18.51" width="0.5" layer="16"/>
+<wire x1="23.39" y1="18.51" x2="25.39" y2="18.51" width="0.5" layer="16"/>
+<wire x1="25.39" y1="18.51" x2="27.39" y2="18.51" width="0.5" layer="16"/>
+<wire x1="27.39" y1="18.51" x2="29.39" y2="18.51" width="0.5" layer="16"/>
+<contactref element="J4" pad="2"/>
+<contactref element="J4" pad="1"/>
+<wire x1="22.925" y1="15.7" x2="21.39" y2="17.235" width="0.4" layer="16"/>
+<wire x1="21.39" y1="17.235" x2="21.39" y2="18.51" width="0.4" layer="16"/>
+<wire x1="25.875" y1="15.7" x2="22.925" y2="15.7" width="0.4" layer="16"/>
+</signal>
+<signal name="N$49">
+<contactref element="X3" pad="1"/>
+<contactref element="J19" pad="1"/>
+<contactref element="J19" pad="3"/>
+<contactref element="J19" pad="5"/>
+<contactref element="J19" pad="7"/>
+<contactref element="J19" pad="9"/>
+<contactref element="J19" pad="11"/>
+<wire x1="35.7" y1="11.95" x2="37.7" y2="11.95" width="0.5" layer="1"/>
+<wire x1="37.7" y1="11.95" x2="39.7" y2="11.95" width="0.5" layer="1"/>
+<wire x1="39.7" y1="11.95" x2="40.71" y2="11.95" width="0.5" layer="1"/>
+<wire x1="40.71" y1="11.95" x2="41.7" y2="11.95" width="0.5" layer="1"/>
+<wire x1="41.7" y1="11.95" x2="43.7" y2="11.95" width="0.5" layer="1"/>
+<wire x1="43.7" y1="11.95" x2="45.7" y2="11.95" width="0.5" layer="1"/>
+<wire x1="40.7" y1="4.12" x2="40.7" y2="11.94" width="0.4" layer="1"/>
+<wire x1="40.7" y1="11.94" x2="40.71" y2="11.95" width="0.4" layer="1"/>
+</signal>
+<signal name="N$50">
+<contactref element="X3" pad="5"/>
+<contactref element="X3" pad="3"/>
+<contactref element="X3" pad="4"/>
+<contactref element="X3" pad="2"/>
+<contactref element="J19" pad="2"/>
+<contactref element="J19" pad="4"/>
+<contactref element="J19" pad="6"/>
+<contactref element="J19" pad="8"/>
+<contactref element="J19" pad="10"/>
+<contactref element="J19" pad="12"/>
+<wire x1="35.7" y1="9.95" x2="37.7" y2="9.95" width="0.5" layer="16"/>
+<wire x1="37.7" y1="9.95" x2="39.7" y2="9.95" width="0.5" layer="16"/>
+<wire x1="39.7" y1="9.95" x2="41.7" y2="9.95" width="0.5" layer="16"/>
+<wire x1="41.7" y1="9.95" x2="43.7" y2="9.95" width="0.5" layer="16"/>
+<wire x1="43.7" y1="9.95" x2="45.7" y2="9.95" width="0.5" layer="16"/>
+<wire x1="45.7" y1="9.95" x2="43.2499" y2="7.4999" width="0.4" layer="16"/>
+<wire x1="43.2499" y1="7.4999" x2="43.2499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="43.2499" y1="1.5701" x2="43.2499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="38.1501" y1="1.5701" x2="38.1501" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="38.1501" y1="1.5701" x2="43.2499" y2="1.5701" width="0.5" layer="16"/>
+</signal>
+<signal name="N$51">
+<contactref element="J20" pad="1"/>
+<contactref element="J20" pad="3"/>
+<contactref element="J20" pad="5"/>
+<contactref element="J20" pad="7"/>
+<contactref element="J20" pad="9"/>
+<contactref element="J20" pad="11"/>
+<wire x1="35.69" y1="20.51" x2="37.69" y2="20.51" width="0.5" layer="1"/>
+<wire x1="37.69" y1="20.51" x2="39.69" y2="20.51" width="0.5" layer="1"/>
+<wire x1="39.69" y1="20.51" x2="41.69" y2="20.51" width="0.5" layer="1"/>
+<wire x1="43.69" y1="20.51" x2="45.69" y2="20.51" width="0.5" layer="1"/>
+<wire x1="41.69" y1="20.51" x2="43.69" y2="20.51" width="0.5" layer="1"/>
+<contactref element="J21" pad="3"/>
+<wire x1="40.7" y1="17.225" x2="46.475" y2="17.225" width="0.4" layer="16"/>
+<wire x1="46.475" y1="17.225" x2="46.85" y2="17.6" width="0.4" layer="16"/>
+<wire x1="46.85" y1="17.6" x2="46.85" y2="19.35" width="0.4" layer="16"/>
+<wire x1="46.85" y1="19.35" x2="45.69" y2="20.51" width="0.4" layer="16"/>
+</signal>
+<signal name="N$52">
+<contactref element="J20" pad="2"/>
+<contactref element="J20" pad="4"/>
+<contactref element="J20" pad="6"/>
+<contactref element="J20" pad="8"/>
+<contactref element="J20" pad="10"/>
+<contactref element="J20" pad="12"/>
+<wire x1="35.69" y1="18.51" x2="37.69" y2="18.51" width="0.5" layer="16"/>
+<wire x1="37.69" y1="18.51" x2="39.69" y2="18.51" width="0.5" layer="16"/>
+<wire x1="39.69" y1="18.51" x2="41.69" y2="18.51" width="0.5" layer="16"/>
+<wire x1="41.69" y1="18.51" x2="43.69" y2="18.51" width="0.5" layer="16"/>
+<wire x1="43.69" y1="18.51" x2="45.69" y2="18.51" width="0.5" layer="16"/>
+<contactref element="J21" pad="2"/>
+<contactref element="J21" pad="1"/>
+<wire x1="39.225" y1="15.7" x2="37.69" y2="17.235" width="0.4" layer="16"/>
+<wire x1="37.69" y1="17.235" x2="37.69" y2="18.51" width="0.4" layer="16"/>
+<wire x1="42.175" y1="15.7" x2="39.225" y2="15.7" width="0.4" layer="16"/>
+</signal>
+<signal name="N$53">
+<contactref element="X4" pad="1"/>
+<contactref element="J22" pad="1"/>
+<contactref element="J22" pad="3"/>
+<contactref element="J22" pad="5"/>
+<contactref element="J22" pad="7"/>
+<contactref element="J22" pad="9"/>
+<contactref element="J22" pad="11"/>
+<wire x1="52" y1="11.95" x2="54" y2="11.95" width="0.5" layer="1"/>
+<wire x1="54" y1="11.95" x2="56" y2="11.95" width="0.5" layer="1"/>
+<wire x1="56" y1="11.95" x2="57.01" y2="11.95" width="0.5" layer="1"/>
+<wire x1="57.01" y1="11.95" x2="58" y2="11.95" width="0.5" layer="1"/>
+<wire x1="58" y1="11.95" x2="60" y2="11.95" width="0.5" layer="1"/>
+<wire x1="60" y1="11.95" x2="62" y2="11.95" width="0.5" layer="1"/>
+<wire x1="57" y1="4.12" x2="57" y2="11.94" width="0.4" layer="1"/>
+<wire x1="57" y1="11.94" x2="57.01" y2="11.95" width="0.4" layer="1"/>
+</signal>
+<signal name="N$54">
+<contactref element="X4" pad="5"/>
+<contactref element="X4" pad="3"/>
+<contactref element="X4" pad="4"/>
+<contactref element="X4" pad="2"/>
+<contactref element="J22" pad="2"/>
+<contactref element="J22" pad="4"/>
+<contactref element="J22" pad="6"/>
+<contactref element="J22" pad="8"/>
+<contactref element="J22" pad="10"/>
+<contactref element="J22" pad="12"/>
+<wire x1="52" y1="9.95" x2="54" y2="9.95" width="0.5" layer="16"/>
+<wire x1="54" y1="9.95" x2="56" y2="9.95" width="0.5" layer="16"/>
+<wire x1="56" y1="9.95" x2="58" y2="9.95" width="0.5" layer="16"/>
+<wire x1="58" y1="9.95" x2="60" y2="9.95" width="0.5" layer="16"/>
+<wire x1="60" y1="9.95" x2="62" y2="9.95" width="0.5" layer="16"/>
+<wire x1="62" y1="9.95" x2="59.5499" y2="7.4999" width="0.4" layer="16"/>
+<wire x1="59.5499" y1="7.4999" x2="59.5499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="59.5499" y1="1.5701" x2="59.5499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="54.4501" y1="1.5701" x2="54.4501" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="54.4501" y1="1.5701" x2="59.5499" y2="1.5701" width="0.5" layer="16"/>
+</signal>
+<signal name="N$55">
+<contactref element="J23" pad="1"/>
+<contactref element="J23" pad="3"/>
+<contactref element="J23" pad="5"/>
+<contactref element="J23" pad="7"/>
+<contactref element="J23" pad="9"/>
+<contactref element="J23" pad="11"/>
+<wire x1="51.99" y1="20.51" x2="53.99" y2="20.51" width="0.5" layer="1"/>
+<wire x1="53.99" y1="20.51" x2="55.99" y2="20.51" width="0.5" layer="1"/>
+<wire x1="55.99" y1="20.51" x2="57.99" y2="20.51" width="0.5" layer="1"/>
+<wire x1="59.99" y1="20.51" x2="61.99" y2="20.51" width="0.5" layer="1"/>
+<wire x1="57.99" y1="20.51" x2="59.99" y2="20.51" width="0.5" layer="1"/>
+<contactref element="J24" pad="3"/>
+<wire x1="57" y1="17.225" x2="62.775" y2="17.225" width="0.4" layer="16"/>
+<wire x1="62.775" y1="17.225" x2="63.15" y2="17.6" width="0.4" layer="16"/>
+<wire x1="63.15" y1="17.6" x2="63.15" y2="19.35" width="0.4" layer="16"/>
+<wire x1="63.15" y1="19.35" x2="61.99" y2="20.51" width="0.4" layer="16"/>
+</signal>
+<signal name="N$56">
+<contactref element="J23" pad="2"/>
+<contactref element="J23" pad="4"/>
+<contactref element="J23" pad="6"/>
+<contactref element="J23" pad="8"/>
+<contactref element="J23" pad="10"/>
+<contactref element="J23" pad="12"/>
+<wire x1="51.99" y1="18.51" x2="53.99" y2="18.51" width="0.5" layer="16"/>
+<wire x1="53.99" y1="18.51" x2="55.99" y2="18.51" width="0.5" layer="16"/>
+<wire x1="55.99" y1="18.51" x2="57.99" y2="18.51" width="0.5" layer="16"/>
+<wire x1="57.99" y1="18.51" x2="59.99" y2="18.51" width="0.5" layer="16"/>
+<wire x1="59.99" y1="18.51" x2="61.99" y2="18.51" width="0.5" layer="16"/>
+<contactref element="J24" pad="2"/>
+<contactref element="J24" pad="1"/>
+<wire x1="55.525" y1="15.7" x2="53.99" y2="17.235" width="0.4" layer="16"/>
+<wire x1="53.99" y1="17.235" x2="53.99" y2="18.51" width="0.4" layer="16"/>
+<wire x1="58.475" y1="15.7" x2="55.525" y2="15.7" width="0.4" layer="16"/>
+</signal>
+<signal name="N$57">
+<contactref element="X5" pad="1"/>
+<contactref element="J25" pad="1"/>
+<contactref element="J25" pad="3"/>
+<contactref element="J25" pad="5"/>
+<contactref element="J25" pad="7"/>
+<contactref element="J25" pad="9"/>
+<contactref element="J25" pad="11"/>
+<wire x1="68.3" y1="11.95" x2="70.3" y2="11.95" width="0.5" layer="1"/>
+<wire x1="70.3" y1="11.95" x2="72.3" y2="11.95" width="0.5" layer="1"/>
+<wire x1="72.3" y1="11.95" x2="73.31" y2="11.95" width="0.5" layer="1"/>
+<wire x1="73.31" y1="11.95" x2="74.3" y2="11.95" width="0.5" layer="1"/>
+<wire x1="74.3" y1="11.95" x2="76.3" y2="11.95" width="0.5" layer="1"/>
+<wire x1="76.3" y1="11.95" x2="78.3" y2="11.95" width="0.5" layer="1"/>
+<wire x1="73.3" y1="4.12" x2="73.3" y2="11.94" width="0.4" layer="1"/>
+<wire x1="73.3" y1="11.94" x2="73.31" y2="11.95" width="0.4" layer="1"/>
+</signal>
+<signal name="N$58">
+<contactref element="X5" pad="5"/>
+<contactref element="X5" pad="3"/>
+<contactref element="X5" pad="4"/>
+<contactref element="X5" pad="2"/>
+<contactref element="J25" pad="2"/>
+<contactref element="J25" pad="4"/>
+<contactref element="J25" pad="6"/>
+<contactref element="J25" pad="8"/>
+<contactref element="J25" pad="10"/>
+<contactref element="J25" pad="12"/>
+<wire x1="68.3" y1="9.95" x2="70.3" y2="9.95" width="0.5" layer="16"/>
+<wire x1="70.3" y1="9.95" x2="72.3" y2="9.95" width="0.5" layer="16"/>
+<wire x1="72.3" y1="9.95" x2="74.3" y2="9.95" width="0.5" layer="16"/>
+<wire x1="74.3" y1="9.95" x2="76.3" y2="9.95" width="0.5" layer="16"/>
+<wire x1="76.3" y1="9.95" x2="78.3" y2="9.95" width="0.5" layer="16"/>
+<wire x1="78.3" y1="9.95" x2="75.8499" y2="7.4999" width="0.4" layer="16"/>
+<wire x1="75.8499" y1="7.4999" x2="75.8499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="75.8499" y1="1.5701" x2="75.8499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="70.7501" y1="1.5701" x2="70.7501" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="70.7501" y1="1.5701" x2="75.8499" y2="1.5701" width="0.5" layer="16"/>
+</signal>
+<signal name="N$59">
+<contactref element="J26" pad="1"/>
+<contactref element="J26" pad="3"/>
+<contactref element="J26" pad="5"/>
+<contactref element="J26" pad="7"/>
+<contactref element="J26" pad="9"/>
+<contactref element="J26" pad="11"/>
+<wire x1="68.29" y1="20.51" x2="70.29" y2="20.51" width="0.5" layer="1"/>
+<wire x1="70.29" y1="20.51" x2="72.29" y2="20.51" width="0.5" layer="1"/>
+<wire x1="72.29" y1="20.51" x2="74.29" y2="20.51" width="0.5" layer="1"/>
+<wire x1="76.29" y1="20.51" x2="78.29" y2="20.51" width="0.5" layer="1"/>
+<wire x1="74.29" y1="20.51" x2="76.29" y2="20.51" width="0.5" layer="1"/>
+<contactref element="J27" pad="3"/>
+<wire x1="73.3" y1="17.225" x2="79.075" y2="17.225" width="0.4" layer="16"/>
+<wire x1="79.075" y1="17.225" x2="79.45" y2="17.6" width="0.4" layer="16"/>
+<wire x1="79.45" y1="17.6" x2="79.45" y2="19.35" width="0.4" layer="16"/>
+<wire x1="79.45" y1="19.35" x2="78.29" y2="20.51" width="0.4" layer="16"/>
+</signal>
+<signal name="N$60">
+<contactref element="J26" pad="2"/>
+<contactref element="J26" pad="4"/>
+<contactref element="J26" pad="6"/>
+<contactref element="J26" pad="8"/>
+<contactref element="J26" pad="10"/>
+<contactref element="J26" pad="12"/>
+<wire x1="68.29" y1="18.51" x2="70.29" y2="18.51" width="0.5" layer="16"/>
+<wire x1="70.29" y1="18.51" x2="72.29" y2="18.51" width="0.5" layer="16"/>
+<wire x1="72.29" y1="18.51" x2="74.29" y2="18.51" width="0.5" layer="16"/>
+<wire x1="74.29" y1="18.51" x2="76.29" y2="18.51" width="0.5" layer="16"/>
+<wire x1="76.29" y1="18.51" x2="78.29" y2="18.51" width="0.5" layer="16"/>
+<contactref element="J27" pad="2"/>
+<contactref element="J27" pad="1"/>
+<wire x1="71.825" y1="15.7" x2="70.29" y2="17.235" width="0.4" layer="16"/>
+<wire x1="70.29" y1="17.235" x2="70.29" y2="18.51" width="0.4" layer="16"/>
+<wire x1="74.775" y1="15.7" x2="71.825" y2="15.7" width="0.4" layer="16"/>
+</signal>
+<signal name="N$61">
+<contactref element="X6" pad="1"/>
+<contactref element="J28" pad="1"/>
+<contactref element="J28" pad="3"/>
+<contactref element="J28" pad="5"/>
+<contactref element="J28" pad="7"/>
+<contactref element="J28" pad="9"/>
+<contactref element="J28" pad="11"/>
+<wire x1="84.6" y1="11.95" x2="86.6" y2="11.95" width="0.5" layer="1"/>
+<wire x1="86.6" y1="11.95" x2="88.6" y2="11.95" width="0.5" layer="1"/>
+<wire x1="88.6" y1="11.95" x2="89.61" y2="11.95" width="0.5" layer="1"/>
+<wire x1="89.61" y1="11.95" x2="90.6" y2="11.95" width="0.5" layer="1"/>
+<wire x1="90.6" y1="11.95" x2="92.6" y2="11.95" width="0.5" layer="1"/>
+<wire x1="92.6" y1="11.95" x2="94.6" y2="11.95" width="0.5" layer="1"/>
+<wire x1="89.6" y1="4.12" x2="89.6" y2="11.94" width="0.4" layer="1"/>
+<wire x1="89.6" y1="11.94" x2="89.61" y2="11.95" width="0.4" layer="1"/>
+</signal>
+<signal name="N$62">
+<contactref element="X6" pad="5"/>
+<contactref element="X6" pad="3"/>
+<contactref element="X6" pad="4"/>
+<contactref element="X6" pad="2"/>
+<contactref element="J28" pad="2"/>
+<contactref element="J28" pad="4"/>
+<contactref element="J28" pad="6"/>
+<contactref element="J28" pad="8"/>
+<contactref element="J28" pad="10"/>
+<contactref element="J28" pad="12"/>
+<wire x1="84.6" y1="9.95" x2="86.6" y2="9.95" width="0.5" layer="16"/>
+<wire x1="86.6" y1="9.95" x2="88.6" y2="9.95" width="0.5" layer="16"/>
+<wire x1="88.6" y1="9.95" x2="90.6" y2="9.95" width="0.5" layer="16"/>
+<wire x1="90.6" y1="9.95" x2="92.6" y2="9.95" width="0.5" layer="16"/>
+<wire x1="92.6" y1="9.95" x2="94.6" y2="9.95" width="0.5" layer="16"/>
+<wire x1="94.6" y1="9.95" x2="92.1499" y2="7.4999" width="0.4" layer="16"/>
+<wire x1="92.1499" y1="7.4999" x2="92.1499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="92.1499" y1="1.5701" x2="92.1499" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="87.0501" y1="1.5701" x2="87.0501" y2="6.6699" width="0.5" layer="16"/>
+<wire x1="87.0501" y1="1.5701" x2="92.1499" y2="1.5701" width="0.5" layer="16"/>
+</signal>
+<signal name="N$63">
+<contactref element="J29" pad="1"/>
+<contactref element="J29" pad="3"/>
+<contactref element="J29" pad="5"/>
+<contactref element="J29" pad="7"/>
+<contactref element="J29" pad="9"/>
+<contactref element="J29" pad="11"/>
+<wire x1="84.59" y1="20.51" x2="86.59" y2="20.51" width="0.5" layer="1"/>
+<wire x1="86.59" y1="20.51" x2="88.59" y2="20.51" width="0.5" layer="1"/>
+<wire x1="88.59" y1="20.51" x2="90.59" y2="20.51" width="0.5" layer="1"/>
+<wire x1="92.59" y1="20.51" x2="94.59" y2="20.51" width="0.5" layer="1"/>
+<wire x1="90.59" y1="20.51" x2="92.59" y2="20.51" width="0.5" layer="1"/>
+<contactref element="J30" pad="3"/>
+<wire x1="89.6" y1="17.225" x2="95.375" y2="17.225" width="0.4" layer="16"/>
+<wire x1="95.375" y1="17.225" x2="95.75" y2="17.6" width="0.4" layer="16"/>
+<wire x1="95.75" y1="17.6" x2="95.75" y2="19.35" width="0.4" layer="16"/>
+<wire x1="95.75" y1="19.35" x2="94.59" y2="20.51" width="0.4" layer="16"/>
+</signal>
+<signal name="N$64">
+<contactref element="J29" pad="2"/>
+<contactref element="J29" pad="4"/>
+<contactref element="J29" pad="6"/>
+<contactref element="J29" pad="8"/>
+<contactref element="J29" pad="10"/>
+<contactref element="J29" pad="12"/>
+<wire x1="84.59" y1="18.51" x2="86.59" y2="18.51" width="0.5" layer="16"/>
+<wire x1="86.59" y1="18.51" x2="88.59" y2="18.51" width="0.5" layer="16"/>
+<wire x1="88.59" y1="18.51" x2="90.59" y2="18.51" width="0.5" layer="16"/>
+<wire x1="90.59" y1="18.51" x2="92.59" y2="18.51" width="0.5" layer="16"/>
+<wire x1="92.59" y1="18.51" x2="94.59" y2="18.51" width="0.5" layer="16"/>
+<contactref element="J30" pad="2"/>
+<contactref element="J30" pad="1"/>
+<wire x1="88.125" y1="15.7" x2="86.59" y2="17.235" width="0.4" layer="16"/>
+<wire x1="86.59" y1="17.235" x2="86.59" y2="18.51" width="0.4" layer="16"/>
+<wire x1="91.075" y1="15.7" x2="88.125" y2="15.7" width="0.4" layer="16"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
