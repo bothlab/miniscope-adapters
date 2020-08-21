@@ -65,11 +65,11 @@
 <wire x1="0" y1="14" x2="16.2" y2="14" width="0.1524" layer="20"/>
 <wire x1="16.2" y1="14" x2="16.2" y2="0" width="0.1524" layer="20"/>
 <wire x1="16.2" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
-<text x="15.5" y="13.5" size="1.016" layer="26" rot="MR270">SMA to Harwin_M80</text>
-<text x="13.5" y="1.25" size="1.016" layer="26" rot="MR270" align="center">v1</text>
+<text x="15" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
+<text x="13.75" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
 </plain>
 <libraries>
-<library name="Various">
+<library name="MaKLib-Connectors-A">
 <packages>
 <package name="SMA-901-9895-RFX">
 <description>Male Pin SMA connector&lt;br/&gt;
@@ -341,8 +341,8 @@ Your Multi-CB Team
 </pass>
 </autorouter>
 <elements>
-<element name="X1" library="Various" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="8.1" y="4.12" smashed="yes" rot="MR0"/>
-<element name="J1" library="Various" package="M80-8871205" value="M80-8871205" x="3.1" y="9.95" smashed="yes">
+<element name="X1" library="MaKLib-Connectors-A" package="SMA-901-9895-RFX" value="SMA-901-9895-RFX" x="8.1" y="4.12" smashed="yes" rot="MR0"/>
+<element name="J1" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="3.1" y="9.95" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="3.1" y="9.95" size="1.778" layer="27" display="off"/>
@@ -387,9 +387,7 @@ Your Multi-CB Team
 <wire x1="7.1" y1="9.95" x2="9.1" y2="9.95" width="0.5" layer="16"/>
 <wire x1="9.1" y1="9.95" x2="11.1" y2="9.95" width="0.5" layer="16"/>
 <wire x1="11.1" y1="9.95" x2="13.1" y2="9.95" width="0.5" layer="16"/>
-<wire x1="3.1" y1="9.95" x2="5.5501" y2="7.4999" width="0.5" layer="16"/>
-<wire x1="5.5501" y1="7.4999" x2="5.5501" y2="6.6699" width="0.5" layer="16"/>
-<wire x1="13.1" y1="9.95" x2="10.6499" y2="7.4999" width="0.5" layer="16"/>
+<wire x1="13.1" y1="9.95" x2="10.6499" y2="7.4999" width="0.4" layer="16"/>
 <wire x1="10.6499" y1="7.4999" x2="10.6499" y2="6.6699" width="0.5" layer="16"/>
 <wire x1="10.6499" y1="1.5701" x2="10.6499" y2="6.6699" width="0.5" layer="16"/>
 <wire x1="5.5501" y1="1.5701" x2="5.5501" y2="6.6699" width="0.5" layer="16"/>

@@ -61,7 +61,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Various">
+<library name="MaKLib-Connectors-A">
 <packages>
 <package name="SMA-901-9895-RFX">
 <description>Male Pin SMA connector&lt;br/&gt;
@@ -213,8 +213,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 </class>
 </classes>
 <parts>
-<part name="X1" library="Various" deviceset="SMA-901-9895-RFX" device=""/>
-<part name="J1" library="Various" deviceset="M80-8871205" device=""/>
+<part name="X1" library="MaKLib-Connectors-A" deviceset="SMA-901-9895-RFX" device=""/>
+<part name="J1" library="MaKLib-Connectors-A" deviceset="M80-8871205" device=""/>
 </parts>
 <sheets>
 <sheet>
