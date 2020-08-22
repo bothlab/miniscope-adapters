@@ -1,4 +1,4 @@
-# Miniscope Adaptors: Parts List
+# Miniscope Adapters: Parts List
 
 ## Connectors and Wires
 
@@ -12,7 +12,7 @@ Mouser. This cable was also tested with the Doric Lenses commutator as outlined 
 There is however no reason for the regular ⌀1.1mm cable not to work just as well for this application.
 
 ### Notes on the SMA/Harwin connectors
-In order to connect the Miniscope DAQ box to the Doric Lenses commutator, you need at least the SMA-to-Harwin adaptor circuit
+In order to connect the Miniscope DAQ box to the Doric Lenses commutator, you need at least the SMA-to-Harwin adapter circuit
 board with a female Harwin plug and male SMA connector as well as one of the Coax-to-Harwin options (with female Harwin
 connector as well). Since the Miniscopes will be connected directly to Harwin connectors, you will also need the male Harwin
 connector on an SMA-to-Harwin board in order to still be able to use the Miniscopes without a commutator for testing.
