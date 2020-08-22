@@ -61,10 +61,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="7.5" width="0.1524" layer="20"/>
-<wire x1="0" y1="7.5" x2="12.6" y2="7.5" width="0.1524" layer="20"/>
-<wire x1="12.6" y1="7.5" x2="12.6" y2="0" width="0.1524" layer="20"/>
-<wire x1="12.6" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="7.5" width="0.1" layer="20"/>
+<wire x1="0" y1="7.5" x2="12.6" y2="7.5" width="0.1" layer="20"/>
+<wire x1="12.6" y1="7.5" x2="12.6" y2="0" width="0.1" layer="20"/>
+<wire x1="12.6" y1="0" x2="0" y2="0" width="0.1" layer="20"/>
 <text x="11.9" y="3.2" size="1.016" layer="26" rot="MR0">Coax to SMA v1</text>
 </plain>
 <libraries>

@@ -61,10 +61,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="14" width="0.1524" layer="20"/>
-<wire x1="0" y1="14" x2="16.2" y2="14" width="0.1524" layer="20"/>
-<wire x1="16.2" y1="14" x2="16.2" y2="0" width="0.1524" layer="20"/>
-<wire x1="16.2" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="14" width="0.1" layer="20"/>
+<wire x1="0" y1="14" x2="16.2" y2="14" width="0.1" layer="20"/>
+<wire x1="16.2" y1="14" x2="16.2" y2="0" width="0.1" layer="20"/>
+<wire x1="16.2" y1="0" x2="0" y2="0" width="0.1" layer="20"/>
 <text x="15" y="7" size="1.016" layer="26" rot="MR270" align="center">SMA to Harwin M80</text>
 <text x="13.75" y="1.5" size="1.016" layer="26" rot="MR270" align="center">v1</text>
 </plain>

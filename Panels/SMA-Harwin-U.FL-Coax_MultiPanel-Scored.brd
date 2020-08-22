@@ -20,7 +20,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -159,6 +159,8 @@
 <wire x1="0" y1="0" x2="102.2" y2="0" width="0.1" layer="20"/>
 <wire x1="102.2" y1="0" x2="102.2" y2="68.35" width="0.1" layer="20"/>
 <wire x1="102.2" y1="68.35" x2="0" y2="68.35" width="0.1" layer="20"/>
+<text x="100" y="0.35" size="0.6096" layer="27" rot="R90">(c) 2020 Matthias Klumpp
+              Heidelberg University, DE</text>
 </plain>
 <libraries>
 <library name="MaKLib-Connectors-A">
@@ -1936,6 +1938,10 @@ Your Multi-CB Team
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
