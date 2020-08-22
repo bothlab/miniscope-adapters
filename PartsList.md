@@ -34,4 +34,10 @@ available to order when we needed it.
 
 ## Doric Lenses Commutator
 
-TODO
+We used an assisted fiber-optic & electric rotary joint from Doric Lenses for our tests, because it was available from a different
+experiment. When creating a new setup for Miniscopes, it is a more cost-efficient idea though to go for the electrical-only model
+instead of one that also has fiber-optics included.
+
+| Part Description  | Manufacturer | Part ID | Order URL |
+| ----------------- | ------------ | ------- | --------- |
+| Assisted Electrical Rotary Joint | Doric Lenses  | AERJ_12_HARW | [Doric Lenses](http://doriclenses.com/life-sciences/electrical-rotary-joints/959-assisted-electrical-rotary-joints.html#/channelcount-12/connector_electrical-harwin) |
