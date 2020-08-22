@@ -159,7 +159,7 @@
 <wire x1="0" y1="0" x2="102.2" y2="0" width="0.1" layer="20"/>
 <wire x1="102.2" y1="0" x2="102.2" y2="68.35" width="0.1" layer="20"/>
 <wire x1="102.2" y1="68.35" x2="0" y2="68.35" width="0.1" layer="20"/>
-<text x="100" y="0.35" size="0.6096" layer="27" rot="R90">(c) 2020 Matthias Klumpp
+<text x="100" y="0.35" size="0.6096" layer="125" rot="R90">(c) 2020 Matthias Klumpp
               Heidelberg University, DE</text>
 </plain>
 <libraries>
