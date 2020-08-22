@@ -1,4 +1,7 @@
-# Miniscope Connection Adaptors
+Miniscope Connection Adaptors
+=============================
+
+![Adaptor Circuit Board Overview](graphics/boards-overview.png "Adaptor Boards")
 
 This repository contains EDA design files for very simple adaptor circuit boards to connect
 [UCLA Miniscope](https://github.com/Aharoni-Lab/Miniscope-v4) and their coax cables to other
