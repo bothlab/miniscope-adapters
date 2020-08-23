@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -61,11 +61,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="8.65" width="0.1" layer="20"/>
-<wire x1="0" y1="8.65" x2="16.2" y2="8.65" width="0.1" layer="20"/>
-<wire x1="16.2" y1="8.65" x2="16.2" y2="0" width="0.1" layer="20"/>
-<wire x1="16.2" y1="0" x2="0" y2="0" width="0.1" layer="20"/>
-<text x="8.1" y="7.85" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
+<wire x1="0" y1="0" x2="0" y2="6.4" width="0.1" layer="20"/>
+<wire x1="0" y1="6.4" x2="19.4" y2="6.4" width="0.1" layer="20"/>
+<wire x1="19.4" y1="6.4" x2="19.4" y2="0" width="0.1" layer="20"/>
+<wire x1="19.4" y1="0" x2="0" y2="0" width="0.1" layer="20"/>
+<text x="9.7" y="5.55" size="0.8128" layer="26" rot="MR0" align="center">U.FL to Harwin M80 v1</text>
 </plain>
 <libraries>
 <library name="MaKLib-Connectors-A">
@@ -335,23 +335,23 @@ Your Multi-CB Team
 </pass>
 </autorouter>
 <elements>
-<element name="J3" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="3.09" y="4.41" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.23mm" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Harwin" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="3.09" y="4.41" size="1.778" layer="27" display="off"/>
+<element name="J3" library="MaKLib-Connectors-A" package="M80-8871205" value="M80-8871205" x="3" y="2.2" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="M80-8871205" x="3" y="2.2" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="3" y="2.2" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts" x="3" y="2.2" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.23mm" x="3" y="2.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Harwin" x="3" y="2.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M80-8871205" x="3" y="2.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="3" y="2.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="3" y="2.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="8.1" y="1.6" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="8.1" y="1.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="mm" x="8.1" y="1.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Hirose" x="8.1" y="1.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="8.1" y="1.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="8.1" y="1.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="8.1" y="1.6" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J1" library="MaKLib-Connectors-A" package="U.FL-R-SMT-1(10)" value="U.FL-R-SMT-1(10)" x="17.8" y="3.25" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" x="17.8" y="3.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="17.8" y="3.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" x="17.8" y="3.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="U.FL-R-SMT-1(10)" x="17.8" y="3.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="798-U.FL-R-SMT-110" x="17.8" y="3.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" x="17.8" y="3.25" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -362,16 +362,14 @@ Your Multi-CB Team
 <contactref element="J3" pad="7"/>
 <contactref element="J3" pad="9"/>
 <contactref element="J3" pad="11"/>
-<wire x1="3.09" y1="6.41" x2="5.09" y2="6.41" width="0.5" layer="1"/>
-<wire x1="5.09" y1="6.41" x2="7.09" y2="6.41" width="0.5" layer="1"/>
-<wire x1="7.09" y1="6.41" x2="9.09" y2="6.41" width="0.5" layer="1"/>
-<wire x1="11.09" y1="6.41" x2="13.09" y2="6.41" width="0.5" layer="1"/>
-<wire x1="9.09" y1="6.41" x2="11.09" y2="6.41" width="0.5" layer="1"/>
 <contactref element="J1" pad="3"/>
-<wire x1="8.1" y1="3.125" x2="13.875" y2="3.125" width="0.4" layer="16"/>
-<wire x1="13.875" y1="3.125" x2="14.25" y2="3.5" width="0.4" layer="16"/>
-<wire x1="14.25" y1="3.5" x2="14.25" y2="5.25" width="0.4" layer="16"/>
-<wire x1="14.25" y1="5.25" x2="13.09" y2="6.41" width="0.4" layer="16"/>
+<wire x1="13" y1="4.2" x2="15.325" y2="4.2" width="0.5" layer="16"/>
+<wire x1="15.325" y1="4.2" x2="16.275" y2="3.25" width="0.5" layer="16"/>
+<wire x1="3" y1="4.2" x2="5" y2="4.2" width="0.5" layer="16"/>
+<wire x1="5" y1="4.2" x2="7" y2="4.2" width="0.5" layer="16"/>
+<wire x1="7" y1="4.2" x2="9" y2="4.2" width="0.5" layer="16"/>
+<wire x1="9" y1="4.2" x2="11" y2="4.2" width="0.5" layer="16"/>
+<wire x1="11" y1="4.2" x2="13" y2="4.2" width="0.5" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="J3" pad="2"/>
@@ -380,16 +378,17 @@ Your Multi-CB Team
 <contactref element="J3" pad="8"/>
 <contactref element="J3" pad="10"/>
 <contactref element="J3" pad="12"/>
-<wire x1="3.09" y1="4.41" x2="5.09" y2="4.41" width="0.5" layer="16"/>
-<wire x1="5.09" y1="4.41" x2="7.09" y2="4.41" width="0.5" layer="16"/>
-<wire x1="7.09" y1="4.41" x2="9.09" y2="4.41" width="0.5" layer="16"/>
-<wire x1="9.09" y1="4.41" x2="11.09" y2="4.41" width="0.5" layer="16"/>
-<wire x1="11.09" y1="4.41" x2="13.09" y2="4.41" width="0.5" layer="16"/>
+<wire x1="5" y1="2.2" x2="2.89" y2="2.21" width="0.5" layer="16"/>
+<wire x1="5" y1="2.2" x2="7" y2="2.2" width="0.5" layer="16"/>
+<wire x1="7" y1="2.2" x2="9" y2="2.2" width="0.5" layer="16"/>
+<wire x1="9" y1="2.2" x2="11" y2="2.2" width="0.5" layer="16"/>
+<wire x1="11" y1="2.2" x2="13" y2="2.2" width="0.5" layer="16"/>
 <contactref element="J1" pad="2"/>
 <contactref element="J1" pad="1"/>
-<wire x1="6.625" y1="1.6" x2="5.09" y2="3.135" width="0.4" layer="16"/>
-<wire x1="5.09" y1="3.135" x2="5.09" y2="4.41" width="0.4" layer="16"/>
-<wire x1="9.575" y1="1.6" x2="6.625" y2="1.6" width="0.4" layer="16"/>
+<wire x1="17.8" y1="4.725" x2="17.8" y2="1.775" width="0.4" layer="16"/>
+<wire x1="17.8" y1="1.775" x2="13.425" y2="1.775" width="0.5" layer="16"/>
+<wire x1="13.425" y1="1.775" x2="13" y2="2.2" width="0.5" layer="16"/>
+<wire x1="2.89" y1="2.21" x2="3" y2="2.2" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
