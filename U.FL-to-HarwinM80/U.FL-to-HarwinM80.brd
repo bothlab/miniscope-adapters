@@ -378,7 +378,6 @@ Your Multi-CB Team
 <contactref element="J3" pad="8"/>
 <contactref element="J3" pad="10"/>
 <contactref element="J3" pad="12"/>
-<wire x1="5" y1="2.2" x2="2.89" y2="2.21" width="0.5" layer="16"/>
 <wire x1="5" y1="2.2" x2="7" y2="2.2" width="0.5" layer="16"/>
 <wire x1="7" y1="2.2" x2="9" y2="2.2" width="0.5" layer="16"/>
 <wire x1="9" y1="2.2" x2="11" y2="2.2" width="0.5" layer="16"/>
@@ -388,7 +387,7 @@ Your Multi-CB Team
 <wire x1="17.8" y1="4.725" x2="17.8" y2="1.775" width="0.4" layer="16"/>
 <wire x1="17.8" y1="1.775" x2="13.425" y2="1.775" width="0.5" layer="16"/>
 <wire x1="13.425" y1="1.775" x2="13" y2="2.2" width="0.5" layer="16"/>
-<wire x1="2.89" y1="2.21" x2="3" y2="2.2" width="0" layer="19" extent="16-16"/>
+<wire x1="5" y1="2.2" x2="3" y2="2.2" width="0.5" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
