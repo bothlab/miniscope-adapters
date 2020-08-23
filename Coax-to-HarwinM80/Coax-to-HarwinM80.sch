@@ -156,7 +156,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <smd name="P$2" x="1.5" y="0" dx="1.27" dy="0.6" layer="1" roundness="100"/>
 <text x="3.27" y="0" size="0.4064" layer="25" align="center">&gt;NAME</text>
 <pad name="P$1" x="0" y="0" drill="0.3" diameter="0.55"/>
-<wire x1="0" y1="0.45" x2="0" y2="-0.45" width="0.127" layer="22" curve="-180"/>
+<wire x1="0" y1="-0.45" x2="0" y2="0.45" width="0.127" layer="22" curve="-180"/>
 <wire x1="0" y1="-0.45" x2="0" y2="0.45" width="0.127" layer="21" curve="-180"/>
 </package>
 </packages>
