@@ -111,7 +111,6 @@
 <wire x1="84.45" y1="68.45" x2="90.95" y2="68.45" width="0.1" layer="100"/>
 <wire x1="90.95" y1="68.45" x2="97.4" y2="68.45" width="0.1" layer="100"/>
 <wire x1="97.4" y1="68.45" x2="102.2" y2="68.45" width="0.1" layer="100"/>
-<wire x1="-0.15" y1="91" x2="-0.35" y2="91" width="0.1" layer="20"/>
 <wire x1="0" y1="91" x2="102.2" y2="91" width="0.1" layer="100"/>
 <wire x1="102.2" y1="98.55" x2="0" y2="98.55" width="0.1" layer="20"/>
 <text x="0.9" y="59.1" size="0.8128" layer="26" rot="MR270" align="center">Coax to Harwin M80 v1</text>
@@ -224,8 +223,8 @@
 <wire x1="0" y1="98.55" x2="0" y2="0" width="0.1" layer="20"/>
 <wire x1="0" y1="0" x2="102.2" y2="0" width="0.1" layer="20"/>
 <wire x1="102.2" y1="0" x2="102.2" y2="98.55" width="0.1" layer="20"/>
-<text x="99.7" y="39.5" size="0.8128" layer="125" rot="R90" align="center">(c) 2020 Matthias Klumpp
-                   Heidelberg University, DE</text>
+<text x="100.5" y="32.6" size="0.8128" layer="125" rot="R90">(c) 2020 Matthias Klumpp
+              Heidelberg University, DE</text>
 </plain>
 <libraries>
 <library name="MaKLib-Connectors-A">
