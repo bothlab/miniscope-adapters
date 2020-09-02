@@ -155,9 +155,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <package name="COAX-THROUGBOARD">
 <smd name="P$2" x="1.9" y="0" dx="1.27" dy="0.6" layer="1" roundness="100"/>
 <text x="3.67" y="0" size="0.4064" layer="25" align="center">&gt;NAME</text>
-<pad name="P$1" x="0" y="0" drill="0.6"/>
-<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.1" layer="22" curve="180"/>
-<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.1" layer="21" curve="180"/>
+<pad name="P$1" x="0" y="0" drill="0.7"/>
+<wire x1="0" y1="0.8" x2="0" y2="-0.8" width="0.1" layer="22" curve="180"/>
+<wire x1="0" y1="0.8" x2="0" y2="-0.8" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
 <symbols>

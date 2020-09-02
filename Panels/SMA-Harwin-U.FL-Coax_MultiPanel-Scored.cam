@@ -4,7 +4,7 @@
         "name": "Matthias Klumpp"
     },
     "description": {
-        "EN": "EAGLE default 2 layer CAM job."
+        "EN": "CAM Job for SMA-Harwin-U.FL-Coax_MultiPanel, containing scoring layer and correct top silkscreen."
     },
     "output_type": "zip",
     "outputs": [
@@ -297,7 +297,7 @@
             ]
         }
     ],
-    "timestamp": "2020-08-22T15:10:57",
+    "timestamp": "2020-09-02T18:03:33",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
