@@ -4,7 +4,7 @@
         "name": "Matthias Klumpp"
     },
     "description": {
-        "EN": "CAM Job for SMA-Harwin-U.FL-Coax_MultiPanel, containing scoring layer and correct top silkscreen."
+        "EN": "CAM Job for scored Miniscope adaptor panels (containing scoring layer and correct top silkscreen layer)."
     },
     "output_type": "zip",
     "outputs": [
@@ -297,7 +297,7 @@
             ]
         }
     ],
-    "timestamp": "2020-09-02T18:03:33",
+    "timestamp": "2020-09-02T18:16:49",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
