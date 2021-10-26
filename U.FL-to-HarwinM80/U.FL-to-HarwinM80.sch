@@ -241,22 +241,41 @@ Source: &lt;a href="https://www.hirose.com/product/en/download_file/key_name/U.F
 <net name="N$1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="INNER"/>
-<wire x1="12.7" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="9"/>
-<wire x1="30.48" y1="0" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-2.54" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="10"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="12"/>
-<wire x1="30.48" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
-<junction x="30.48" y="25.4"/>
-<wire x1="30.48" y1="25.4" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="OUTER"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="10"/>
+<wire x1="12.7" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="27.94" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+<junction x="30.48" y="27.94"/>
+<wire x1="33.02" y1="27.94" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="0" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="0" x2="20.32" y2="0" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="22.86" y1="25.4" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

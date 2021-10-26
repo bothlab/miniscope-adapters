@@ -155,9 +155,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <package name="COAX-THROUGBOARD">
 <smd name="P$2" x="1.9" y="0" dx="1.27" dy="0.6" layer="1" roundness="100"/>
 <text x="3.67" y="0" size="0.4064" layer="25" align="center">&gt;NAME</text>
-<pad name="P$1" x="0" y="0" drill="0.7"/>
-<wire x1="0" y1="0.8" x2="0" y2="-0.8" width="0.1" layer="22" curve="180"/>
-<wire x1="0" y1="0.8" x2="0" y2="-0.8" width="0.1" layer="21" curve="180"/>
+<pad name="P$1" x="0" y="0" drill="1"/>
+<wire x1="0" y1="0.9" x2="0" y2="-0.9" width="0.1" layer="22" curve="180"/>
+<wire x1="0" y1="0.9" x2="0" y2="-0.9" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
 <symbols>
@@ -170,8 +170,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="3.04" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="3.04" y="-2.29" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="3.04" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="3.04" y="-2.29" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="-0.25" y1="0.5" x2="-0.25" y2="2.5" width="0.3048" layer="94"/>
 <wire x1="-0.25" y1="-0.5" x2="-0.25" y2="-2.5" width="0.3048" layer="94"/>
 </symbol>
@@ -217,8 +217,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <attribute name="NAME" x="34.29" y="22.86" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="34.29" y="20.32" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="COAX" gate="G$1" x="2.54" y="0" smashed="yes">
-<attribute name="NAME" x="0" y="3.302" size="1.778" layer="95"/>
+<instance part="COAX" gate="G$1" x="2.54" y="0" smashed="yes" rot="MR180">
+<attribute name="NAME" x="0" y="-3.302" size="1.778" layer="95" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -226,61 +226,42 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="2.54" x2="17.78" y2="0" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="17.78" y1="0" x2="20.32" y2="0" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="20.32" y1="0" x2="22.86" y2="0" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="0" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
-<junction x="20.32" y="0"/>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="22.86" y1="0" x2="25.4" y2="0" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
-<junction x="22.86" y="0"/>
-<pinref part="J3" gate="G$1" pin="9"/>
-<wire x1="25.4" y1="0" x2="27.94" y2="0" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="0" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
-<junction x="25.4" y="0"/>
-<pinref part="J3" gate="G$1" pin="11"/>
-<wire x1="27.94" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="0" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
-<junction x="27.94" y="0"/>
-<wire x1="17.78" y1="0" x2="17.78" y2="-2.29" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-2.29" x2="5.58" y2="-2.29" width="0.1524" layer="91"/>
-<junction x="17.78" y="0"/>
 <pinref part="COAX" gate="G$1" pin="2"/>
+<wire x1="5.58" y1="0" x2="5.58" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="5.58" y1="-2.54" x2="27.94" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="9"/>
+<wire x1="27.94" y1="-2.54" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="22.86" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="COAX" gate="G$1" pin="1"/>
+<wire x1="5.58" y1="2.29" x2="5.58" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="5.58" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="10"/>
+<wire x1="27.94" y1="27.94" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<junction x="27.94" y="27.94"/>
+<pinref part="J3" gate="G$1" pin="12"/>
+<wire x1="30.48" y1="27.94" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="0" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="0" x2="17.78" y2="0" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="20.32" y1="25.4" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="20.32" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="25.4" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
-<junction x="20.32" y="25.4"/>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="22.86" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
-<junction x="22.86" y="25.4"/>
-<pinref part="J3" gate="G$1" pin="10"/>
-<wire x1="25.4" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<junction x="25.4" y="25.4"/>
-<pinref part="J3" gate="G$1" pin="12"/>
-<wire x1="27.94" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-<junction x="27.94" y="25.4"/>
-<wire x1="17.78" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="25.4" x2="7.62" y2="0" width="0.1524" layer="91"/>
-<junction x="17.78" y="25.4"/>
-<wire x1="7.62" y1="0" x2="5.58" y2="0" width="0.1524" layer="91"/>
-<pinref part="COAX" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

@@ -63,27 +63,6 @@
 <libraries>
 <library name="MaKLib-Connectors-A">
 <packages>
-<package name="SMA-901-9895-RFX">
-<description>Male Pin SMA connector&lt;br/&gt;
-Amphenol RF, &lt;b&gt;901-9895-RFX&lt;/b&gt;</description>
-<wire x1="-1.1" y1="3.2" x2="1.1" y2="3.2" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="1.1" x2="3.2" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="-3.2" x2="-1.1" y2="-3.2" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-1.1" x2="-3.2" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="-3.1999" y1="3.1999" x2="3.2" y2="3.2" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="3.2" x2="3.1999" y2="-3.1999" width="0.2032" layer="51"/>
-<wire x1="3.1999" y1="-3.1999" x2="-3.2" y2="-3.2" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-3.2" x2="-3.1999" y2="3.1999" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="3.1999" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.5"/>
-<pad name="2" x="-2.5499" y="2.5499" drill="1.71"/>
-<pad name="3" x="2.5499" y="2.5499" drill="1.71"/>
-<pad name="4" x="2.5499" y="-2.5499" drill="1.71"/>
-<pad name="5" x="-2.5499" y="-2.5499" drill="1.71"/>
-<text x="-2.54" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="M80-8871205">
 <description>&lt;b&gt;M80-8871205-3&lt;/b&gt;&lt;br&gt;
 </description>
@@ -110,20 +89,6 @@ Amphenol RF, &lt;b&gt;901-9895-RFX&lt;/b&gt;</description>
 </package>
 </packages>
 <symbols>
-<symbol name="BNC-FGND">
-<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="M80-8871205">
 <wire x1="0" y1="5.08" x2="17.78" y2="5.08" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-5.08" x2="17.78" y2="5.08" width="0.254" layer="94"/>
@@ -146,24 +111,6 @@ Amphenol RF, &lt;b&gt;901-9895-RFX&lt;/b&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMA-901-9895-RFX" prefix="X">
-<description>Male Pin SMA connector&lt;br/&gt;
-Amphenol RF, &lt;b&gt;901-9895-RFX&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="BNC-FGND" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMA-901-9895-RFX">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2 3 4 5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M80-8871205" prefix="J">
 <description>&lt;b&gt;Datamate L-Tek DIL Female Vertical 3mm Throughboard Connector, gold clip + gold shell, 6+6 contacts&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -203,6 +150,90 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 </deviceset>
 </devicesets>
 </library>
+<library name="con-coax" urn="urn:adsk.eagle:library:133">
+<description>&lt;b&gt;Coax Connectors&lt;/b&gt;&lt;p&gt;
+Radiall  and M/A COM.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMA-SMD" urn="urn:adsk.eagle:footprint:6194/1" library_version="2">
+<description>&lt;b&gt;SMA 50 Ohm Straight Jack Receptacle - Surface Mount&lt;/b&gt;&lt;p&gt;
+www.johnsoncomponents.com&lt;br&gt;
+Source:  http://catalog.digikey.com .. 142-0711-201, 205, 202, 206.pdf</description>
+<wire x1="-1.1" y1="3.2" x2="1.1" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="-3.2" x2="-1.1" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="-3.1999" y1="3.1999" x2="3.2" y2="3.2" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="3.2" x2="3.1999" y2="-3.1999" width="0.2032" layer="51"/>
+<wire x1="3.1999" y1="-3.1999" x2="-3.2" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-3.2" x2="-3.1999" y2="3.1999" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="3.1999" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<smd name="1" x="0" y="0" dx="1.73" dy="1.73" layer="1" roundness="100"/>
+<smd name="2@2" x="-2.375" y="-2.6" dx="2.35" dy="1.9" layer="1"/>
+<smd name="2@1" x="-2.375" y="2.6" dx="2.35" dy="1.9" layer="1"/>
+<smd name="2@5" x="-2.8" y="0" dx="1.5" dy="3.4" layer="1"/>
+<smd name="2@4" x="2.375" y="2.6" dx="2.35" dy="1.9" layer="1" rot="R180"/>
+<smd name="2@3" x="2.375" y="-2.6" dx="2.35" dy="1.9" layer="1" rot="R180"/>
+<smd name="2@6" x="2.8" y="0" dx="1.5" dy="3.4" layer="1" rot="R180"/>
+<text x="-2.54" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMA-SMD" urn="urn:adsk.eagle:package:6220/1" type="box" library_version="2">
+<description>SMA 50 Ohm Straight Jack Receptacle - Surface Mount
+www.johnsoncomponents.com
+Source:  http://catalog.digikey.com .. 142-0711-201, 205, 202, 206.pdf</description>
+<packageinstances>
+<packageinstance name="SMA-SMD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BU-BNC" urn="urn:adsk.eagle:symbol:6169/1" library_version="2">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.254" x2="-0.762" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.254" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMA-SMD" urn="urn:adsk.eagle:component:6241/2" prefix="X" library_version="2">
+<description>&lt;b&gt;SMA 50 Ohm Straight Jack Receptacle - Surface Mount&lt;/b&gt;&lt;p&gt;
+www.johnsoncomponents.com&lt;br&gt;
+Source:  http://catalog.digikey.com .. 142-0711-201, 205, 202, 206.pdf</description>
+<gates>
+<gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2@1 2@2 2@3 2@4 2@5 2@6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6220/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -213,20 +244,20 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 </class>
 </classes>
 <parts>
-<part name="X1" library="MaKLib-Connectors-A" deviceset="SMA-901-9895-RFX" device=""/>
 <part name="J1" library="MaKLib-Connectors-A" deviceset="M80-8871205" device=""/>
+<part name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-SMD" device="" package3d_urn="urn:adsk.eagle:package:6220/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="10.16" y="12.7" smashed="yes">
-<attribute name="NAME" x="7.62" y="16.002" size="1.778" layer="95"/>
-</instance>
 <instance part="J1" gate="G$1" x="22.86" y="12.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="41.91" y="2.54" size="1.778" layer="95" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="41.91" y="5.08" size="1.778" layer="96" rot="MR180" align="center-left"/>
+</instance>
+<instance part="X1" gate="G$1" x="10.16" y="12.7" smashed="yes">
+<attribute name="NAME" x="7.62" y="16.002" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -234,60 +265,42 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 <nets>
 <net name="N$1" class="0">
 <segment>
-<wire x1="25.4" y1="22.86" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-<junction x="27.94" y="25.4"/>
-<wire x1="30.48" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
-<junction x="30.48" y="25.4"/>
-<wire x1="33.02" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="25.4" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
-<junction x="33.02" y="25.4"/>
-<wire x1="35.56" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="25.4" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<junction x="35.56" y="25.4"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<junction x="25.4" y="25.4"/>
-<pinref part="X1" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="9"/>
-<pinref part="J1" gate="G$1" pin="11"/>
+<pinref part="X1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="27.94" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="25.4" y1="2.54" x2="25.4" y2="0" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="0" x2="27.94" y2="0" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="0" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="0" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
-<junction x="27.94" y="0"/>
-<wire x1="30.48" y1="0" x2="33.02" y2="0" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="0" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
-<junction x="30.48" y="0"/>
-<wire x1="33.02" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="0" x2="35.56" y2="2.54" width="0.1524" layer="91"/>
-<junction x="33.02" y="0"/>
-<wire x1="35.56" y1="0" x2="38.1" y2="0" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="0" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
-<junction x="35.56" y="0"/>
-<wire x1="25.4" y1="0" x2="12.7" y2="0" width="0.1524" layer="91"/>
-<junction x="25.4" y="0"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="2"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-<pinref part="J1" gate="G$1" pin="6"/>
-<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="10"/>
 <pinref part="J1" gate="G$1" pin="12"/>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-2.54" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-2.54" x2="35.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="35.56" y="-2.54"/>
+<wire x1="38.1" y1="-2.54" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="0" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="0" x2="27.94" y2="0" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -295,4 +308,21 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M80-887.pdf"&gt; Datasheet &lt;/
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
